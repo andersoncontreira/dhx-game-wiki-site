@@ -1,0 +1,55 @@
+------------------------------------------       'deixar todas com contorno p/ diferenciar das armas'
+ALUCARD:                                   nº max:12    ''?-inimigos pequenos?-''  "adaga + rapida q soco"
+------------------------------------------         SHIELDS / SPIRITS
+ e*standard              Elemento: none          MP: 10   ATQ:#     Tipo: DEF (+50%)        Local: começa
+ e*god's shield         Elemento: none          MP: 15   ATQ:#     Tipo: recovery HP         Local: loja
+ e*guardian shield  Elemento: none/holy  MP: 35   ATQ:       Tipo: def. e lança mag.  Local: inimigo (guardião)
+ e*skull shield          Elemento: dark          MP: 25   ATQ:       Tipo: touch attack         Local: cenario
+ e*luxurius shield    Elemento: none          MP: 55   ATQ:#     Tipo: perfect DEFs       Local: extras
+ s*tri-soul                 Elemento: light/holy  MP: 20   ATQ:       Tipo: circle                    Local: loja
+ s*mist-soul              Elemento: none          MP: 28   ATQ:#     Tipo: mist form (2s)       Local: sala
+ s*warrior-soul        Elemento: p.damage  MP: 22   ATQ:       Tipo: two front               Local: loja
+ s*knight-soul          Elemento: p.damage   MP: 38   ATQ:       Tipo: powerful front      Local: inimigo
+ s*spectres-soul       Elemento:da. or ho.    MP: 22   ATQ:        Tipo: target magic         Local: loja
+ s*magician-soul     Elemento: dark            MP: 38   ATQ:       Tipo: powerful front      Local: inimigo 
+ s*guardian-soul     Elemento:p.d & dark  MP: 70   ATQ:       Tipo: dawn sword          Local: inimigo (guardião) 
+------------------------------------------
+FREDERIC:                                  nº max:12
+------------------------------------------            GUNS / POTIONS
+ a*garruncha          Elemento: p.damage   MP: 5     ATQ:        Tipo: tiro                         Local: começa
+ a*crossbow            Elemento: fire              MP: 25   ATQ:        Tipo: 3 dardo em cham. Local: loja
+ a*mosquete            Elemento: p.damage   MP: 30   ATQ:        Tipo: shotgun (curto)     Local: cenario
+ a*aqua shot            Elemento: water/ice    MP: 10   ATQ:        Tipo: tiro comprido       Local: loja
+ a*electric shock     Elemento: thunder      MP: 15   ATQ:        Tipo: descarga curta     Local: cenario
+ p*holy-water          Elemento: light/holy   MP: 18   ATQ:        Tipo: chama fixa            Local: loja
+ p*freezing               Elemento: water/ice    MP: 40   ATQ:        Tipo: alastra 'pontas'    Local: inimigo
+ p*salamandra         Elemento: fire             MP: 65   ATQ:        Tipo: alastra 2lados       Local: inimigo
+ p*thunder sphere  Elemento: thunder      MP: 25   ATQ:        Tipo: esfera protetora   Local: inimigo
+  i*bomb                   Elemento: p.damage   MP: 40   ATQ:        Tipo: granada                Local: loja
+  i*lightning rod      Elemento: thunder      MP: 35   ATQ:        Tipo: raio vertical         Local: cenario
+  i*sacred cross        Elemento: light/holy   MP: 45   ATQ:        Tipo: cruz acima(lazes) Local: cenario
+------------------------------------------
+ANITA:                                          nº max:12
+------------------------------------------        AMULETS / WEAPONS TO DISTANCE
+w*boomerang         Elemento: wind           MP: 15   ATQ:        Tipo: small 'ci./fr.'        Local: loja
+w*ring's steel          Elemento: p.damage   MP: 10   ATQ:        Tipo: 2 anéis 'fr./ci.'     Local: cenario
+w*flame cross          Elemento: fire             MP: 75   ATQ:        Tipo: big bulmerangue Local: inimigo
+w*knife                    Elemento: p.damage   MP: 5     ATQ: 3     Tipo: faca (classica)      Local: começa
+w*poison dagger     Elemento: nature        MP: 8     ATQ: 4     Tipo: faca envenenada  Local: cenario
+w*fire arrows          Elemento: fire             MP: 12   ATQ:        Tipo: flexa em chamas  Local: loja
+m*'super-soco'        Elemento: earth          MP: 45   ATQ:        Tipo: charge attack      Local: inimigo
+m*leaf dash              Elemento: nature        MP: 30   ATQ:        Tipo: dash afiado          Local: loja
+m*shoryuken           Elemento: wind           MP: 50   ATQ:        Tipo: sai um twist          Local: inimigo
+m*kick stone            Elemento: earth          MP: 40   ATQ:        Tipo: kick air bass         Local: loja
+m*flying                   Elemento: nature        MP: 35   ATQ:        Tipo: voadora                 Local: inimigo
+m*multi-kick           Elemento: p.damage   MP: 60   ATQ:        Tipo: multiplos chutes   Local: cenario
+------------------------------------------
+BÓRIS:                                          nº max:6
+------------------------------------------            SCROLLS 
+ s*super-strength    Elemento: every          MP: 70   ATQ: 2x   Tipo: 2x attack(ñ crit.)   Local: cenario (secreto)
+ s*ascension             Elemento: wind           MP: 25   ATQ: 30   Tipo: jump attack           Local: loja    colocar lug no mapa para romper dando cabeçada com o asc. 
+ s*invencibility        Elemento: none           MP: 95   ATQ: #     Tipo: invicible (5s)          Local: loja (+ caro)
+ s*vortex                  Elemento: dark           MP: 55   ATQ: 15   Tipo: burraco negro fr.  Local: + pro final
+ s*super-cut            Elemento: p.damage   MP: 20   ATQ: 20    Tipo: esp. p/ bass (air)    Local: começa 'defender' 
+ s*hyper punch       Elemento: earth          MP: 40   ATQ: 25    Tipo: rock. p/ls 'pisada' Local: inimigo
+  

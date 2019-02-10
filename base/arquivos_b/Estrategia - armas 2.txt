@@ -1,0 +1,239 @@
+O RANK NAO E POR FORÇA MAS POR RARIDADE E IMPORTANCIA SEM NECC DE NUMERAÇAO
+
+------------------------------------------------------
+RANK S - 13
+------------------------------------------------------
+05 - HALBERG
+06 - CRIZAOR SPEAR
+06 - XIAN´S DAGGER
+06 - GOLDEN HAMMER
+08 - AZAGAEL SWORD
+09 - MASTER BLADE
+10 - LUXURIUS SWORD
+14 - MASTER WHIP
+14 - ZEUS GAUNTLET
+15 - VAMPIRE KILLER
+15 - HERCULES FIST
+17 - GOD PUNISH
+18 - HERCULES SWORD
+
+--------------------------------------------------------
+RANK A - 22
+--------------------------------------------------------
+04 - HELL SWORD
+05 - GRAMINBERG
+06 - AERES´S VALOR
+07 - WAKIZAHIS
+08 - SAND BRAND
+08 - CELESTIAL
+12 - SPIRIT SWORD
+13 - ATTILA`S SWORD
+14 - VULCANO
+15 - MAELSTRON
+16 - TWIST BLADE
+07 - APOCALYPSE SWORD
+13 - INFERNO WHIP
+11 - ICY CHAIN
+03 - OBSCURE SWORD
+12 - THUNDER WHIP
+05 - AXE BATTLE
+05 - ATHENA´S PUNHAL
+12 - TIGER FIST
+13 - LION GAUNTLET
+10 - GOLEM GAUNTLET
+11 - EAGLE CLAW
+------------------------------------------------------------
+RANK B - 20
+-------------------------------------------------------------
+KATANA
+07 - MORSEL SWORD
+06 - LIZARD SWORD
+08 - FIRE BRAND
+11 - VAPOR BLADE
+09 - THUNDER BLADE
+NINJA SWORD
+EXCALIBUR
+BLACK WHIP
+LONG CHAIN
+LIGHT WHIP
+THORNS WHIP
+VIKING AXE
+POLARES DAGGER
+FREEZE HAMMER
+LEONES DAGGER
+FURY GAUNTLET
+SERPENT FIST
+SAND GLOOVES
+SONIC GAUNTLET
+
+------------------------------------------------------
+RANK C - 19
+------------------------------------------------------
+TURKISH SWORD
+KING SWORD
+FROST SWORD
+LIGHTNING SWORD
+ARCANA SWORD
+SABER OF LIGHT
+LONG LANCE
+TRIDENT
+FALCHION LANCE
+DRAGON KILLER
+CATACLISM
+POISON WHIP
+FLAMING WHIP
+FOG WHIP
+ELETRIC CHAIN
+BARBARIAN DAGGER
+FLAME AXE
+STEEL GLOVES
+SPIKE GLOVES
+ELETRIC FIST
+
+--------------------------------------------------
+RANK D - 8
+---------------------------------------------------
+SABER
+DEFENDER
+CLAN`S HUNTER
+STEEL CHAIN
+COMBAT KNIFE
+DWARVEN MACE
+LEATHER GLOVES
+ENGLISH PUNCH
+--------------------------------------
+TOTAL  82
+APARENTA TER 85 
+
+------------------------------------------
+SWORDS COMMON:                          nº max:19                                physical damage/usual
+------------------------------------------
+Element=physical damage                 nº max:7
+ **sabre                    ATQ=           quant=§§ in    
+ **ninja sword                   ATQ=           quant=§§         
+ **turkishs               ATQ=           quant=§           
+   *morsel sword      ATQ=           quant=§          
+   *king sword  ATQ=           quant=§§         
+   *attila's sword      ATQ=           quant=1           
+   *hercules sword   ATQ=           quant=1           
+Element=fire                                       nº max:2
+ **firebrand            ATQ=           quant=§§         RANK:B=08
+ **vulcano               ATQ=           quant=§           RANK:A=14
+Element=ice/water                             nº max:3
+ **frost sword         ATQ=           quant=§§         RANK:C=03
+ **vapor blade        ATQ=           quant=§           RANK:B=11
+ **maelstron           ATQ=           quant=1           RANK:A=15
+Element=thunder                               nº max:2
+ **lightning sword  ATQ=           quant=§§         RANK:C=06
+ **thunder blade     ATQ=           quant=§          RANK:B=09
+Element=wind                                     nº max:2
+ **twister blade       ATQ=           quant=§         RANK:A=16
+** arcana sword                                                   RANK:C
+Element=light/holy                             nº max:3
+   *sabre of light       ATQ=           quant=§§       RANK:C=05
+ **spirit sword         ATQ=           quant=§         RANK:A=12
+   *god's punish        ATQ=           quant=1         RANK:S=17
+------------------------------------------
+LONG ARMS:                                    nº max:14
+------------------------------------------
+Element=physical damage               nº max:7
+   *long lance           ATQ=           quant=§§        RANK:C=002
+   *halberg                ATQ=           quant=1          RANK:S=005
+   *katana                 ATQ=           quant=§§        RANK:B=003
+   *trident                 ATQ=           quant=§          RANK:C=01
+   *wakizahis           ATQ=           quant=§          RANK:A=06
+   *gram        ATQ=           quant=§          RANK:B=03
+   *graminberg        ATQ=           quant=§          RANK:A=
+Element=dark                                   nº max:3
+   *hell sword          ATQ=           quant=§§        RANK:A=04
+   *chaos spear         ATQ=           quant=§          RANK:B=004
+   *''azagael sword''     ATQ=           quant=1          RANK:S=08
+Element=earth                                  nº max:2
+   *falchion lance     ATQ=           quant=§§        RANK:C=001
+   *sand brand         ATQ=           quant=§          RANK:A=07
+Element=wind                                   nº max:2
+
+   *aeres's valor      ATQ=           quant=§           RANK:A=05
+   *crizaor spear      ATQ=           quant=1           RANK:S=006	
+------------------------------------------
+GREAT SWORDS:                            nº max:10
+------------------------------------------
+Element=physical damage              nº max:5
+   *excalibur               ATQ=         quant=1         RANK:B=05
+   *defender                ATQ=         quant=§§ in   RANK:D=01
+   *dragon killer        ATQ=         quant=§§        RANK:C=03
+   *master blade         ATQ=         quant=1         RANK:S=09
+   *celestial                 ATQ=         quant=§         RANK:A=08
+Element=dark                                  nº max:2
+   *obscure sword        ATQ=         quant=§§       RANK:B=04
+   *apocalipse             ATQ=         quant=§         RANK:A=07
+   *luxurius's sword   ATQ=         quant=1         RANK:S=10
+Element=earth                                 nº max:2
+   *cataclism               ATQ=         quant=§         RANK:C=02
+   *lizard's sword       ATQ=         quant=1         RANK:A=06
+------------------------------------------
+WHIPS:                                                nº max:15
+------------------------------------------
+Element=physical damage              nº max:4
+   *clan's hunter      ATQ=9         quant=§ in    RANK:D=01
+   *black whip          ATQ=14       quant=§§      RANK:B=08
+   *long chain           ATQ=16       quant=§        RANK:B=07
+   *master whip        ATQ=22       quant=1        RANK:S=14
+   *steel chain           ATQ=10       quant=§§      RANK:D=02
+Element=light/holy                          nº max:1
+   *vampire killer    ATQ=           quant=1        RANK:S=15
+   *light whip           ATQ=           quant=§        RANK:B=09
+Element=nature                               nº max:2
+   *thorns whip        ATQ=           quant=§        RANK:B=10
+   *poison whip        ATQ=           quant=§§      RANK:C=03
+Element=fire                                     nº max:1
+   *flame whip          ATQ=           quant=§       RANK:C=06
+   *inferno whip       ATQ=           quant=1       RANK:A=13
+Element=ice/water                           nº max:2
+   *icy chain              ATQ=           quant=§      RANK:A=11
+   *fog whip               ATQ=           quant=§      RANK:C=04
+Element=thunder                             nº max:2
+   *eletric chain         ATQ=          quant=§§    RANK:C=05
+   *thunder whip       ATQ=           quant=§     RANK:A=12
+------------------------------------------ 
+SHORT ARMS:                                   nº max:12
+------------------------------------------
+Element=physical damage              nº max:6
+   *barbarian daggerATQ=           quant=§§   RANK:C=002
+   *xian's dagger       ATQ=           quant=1     RANK:S=006
+   *knife combat        ATQ=           quant=§§   RANK:D=001
+   *axe battle             ATQ=           quant=§§   RANK:A=05
+   *viking axe            ATQ=           quant=1     RANK:B=03
+   *dwarven mace     ATQ=           quant=§     RANK:D=01
+Element=ice/water                           nº max:2
+   *polares(dagger)   ATQ=           quant=1    RANK:B=004
+   *freeze hammer     ATQ=           quant=§    RANK:B=04
+Element=fire                                     nº max:2
+   *leones's dagger    ATQ=           quant=§    RANK:B=003
+   *flame axe              ATQ=           quant=§§  RANK:C=02
+Element=light/holy                           nº max:2
+   *golden hammer    ATQ=           quant=§    RANK:S=06
+   *athena's 'punhal' ATQ=           quant=1    RANK:A=005
+------------------------------------------
+GLOVES:                                             nº max:15
+------------------------------------------
+Element=physical damage              nº max:5
+   *steel gloves            ATQ=          quant=§§    RANK:C=05
+   *tiger's fist              ATQ=          quant=§      RANK:A=12
+   *hercules's fist       ATQ=           quant=1      RANK:S=15
+   *fury gauntlet        ATQ=           quant=§      RANK:B=08
+   *leather gloves       ATQ=           quant=§ in RANK:D=01
+   *english punch       ATQ=           quant=§§    RANK:D=02
+Element=nature                               nº max:3
+   *spike gloves          ATQ=           quant=§§    RANK:C=04
+   *serpent fist           ATQ=           quant=§      RANK:B=09
+   *lion gauntlet        ATQ=           quant=1      RANK:A=13
+Element=earth                                 nº max:2
+   *golem gauntlet     ATQ=           quant=§     RANK:A=10
+   *sand glooves         ATQ=           quant=§     RANK:B=06
+Element=wind                                  nº max:2
+   *sonic gauntlet       ATQ=           quant=§     RANK:B=07
+   *eagle claw             ATQ=           quant=§§   RANK:A=11
+Element=thunder                             nº max:2
+   *zeus gauntlet        ATQ=           quant=1      RANK:S=14
+   *eletric fist             ATQ=           quant=§§    RANK:C=03

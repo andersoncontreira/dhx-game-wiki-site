@@ -1,0 +1,3 @@
+gray - 232526
+purple - 61146f
+gold - #d4b63c

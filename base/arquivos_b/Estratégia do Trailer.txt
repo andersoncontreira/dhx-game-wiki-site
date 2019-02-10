@@ -1,0 +1,67 @@
+1 - Logo                                 (((fodão ñ resolve pq se os humanos conseguirão isso, eles q resolvão)))
+      Alphasoft computer entertainment presents...
+
+2 - Consideração
+      Copyright
+      baseado no game 'obra/franquia' Castlevania simphony of the nights da Konami...
+
+3 - Introdução com textos e imagens
+                  (contado com textos centralizados brancos em terceira pessoa depois que a imagem pára)           
+     epoca, historia, os planos dimencionais, a invasão, luxurius e cassius, cath revivendo os deuses...
+                  (depois do começo da invasão e do fracasso dos exércitos humanos, o conselho manda as unicas 
+                    esperanças 'capacitadas de salvar a raça humana ñ o mundo) 
+---
+-nossos nomes com descrições 'criador, produtor, desenvolvedor';
+-época da história do jogo;
+-explicação do mundo ser dividido em 3 planos e o enfraquecimento da barreira do p. fisico com o p. obscuro;
+-introdução do luxurius, quem era, pq e por quem foi mandado, ele tem possuido cassius e invadido o 'mundo';
+-luxurius fazendo pacto com o cath. p/ reviver os deuses e aumentar seus poderes;
+-a queda dos exércitos humanos diante das hordas do mal;
+-o conselho dos imperios e a introdução dos personagens;
+---
+
+4 - Apresentação dos personagens
+                  (primeiro o nome e descrição centralizado com/sem foto, depois a animação)
+     Miguel Frederic, the monsters hunter
+          -chicote, holy cross, frozen spiral
+          -adaga, garruncha, salamandra "dá facadas, o inim. afasta, mete tiro e por fim joga a poção de fogo"
+          -martelo, mosquete
+     Adrian Fahrenheights Tepes, the Dracula's son Vampire
+          -espada normal, defender orb, darkness gate 
+          -lança, escudo guardião 
+          -espada n. magica, knight orb
+     Anita Grani, the Amazona warrior
+          -punho, knifes, steel rings, tiger fatality
+          -machado, cross gigante
+          -maça, shoryuken         
+     Boris Dinarti, the Germany knight
+          -espada grande, defesa, wind cut
+          -espada longa, vortex
+          -espada grande, hiper punch
+
+5 - Apresentação dos deuses
+                (a foto ocupando 40/60% da tela, mesma foto em outro angulo mesclada ao fundo, nome e descrição)
+      fotos separadas dos 5 deuses + cath , Lu e o Lulu, mas ñ muito destacado.
+
+6 - Sistemas de combate
+                 (perto do final vá acelerando a troca de quadros, pode haver ou ñ alguns titulos p/ as animações)
+      vários quadros de diferentes jogabilidades do jogo  "exploração, habilidades, ataques, inimigos etc"         
+---
+-de 5 à 8 cenários fixos com fundos ativos e com candelabros e plataformas;
+-efeitos sonoros um pouco mais baixos que a trilha de fundo;
+-personagens sempre alternando a ordem de quadros e os tipos de armas;
+-inimigos pequenos em grandes quant. e os maiores mais exclusivos, alguns ou todos os deuses;
+-com ou sem os calculos de danos e a barra de status dos personagens;
+---
+                 (quando terminar os quadros, escurece e depois aparece uma foto dos personagens " ")
+                 (obs. se o cenario tiver + de 1 quadro de altura, o pers. tem q tar centralizado e o fundo ativo)
+
+7 - Fechamento
+      -aquele quadro dos deuses e o lu assende o olho na metade do tempo, 
+      -a logo do jogo "Demon hunter x" sem o "the age of Luxurius"
+      -depois um raio mostra o rosto deles rapidamente,
+      -o "the age of Luxurius" aparece debaixo da logo do jogo.   
+
+8 - espectativa
+      aguarde... 
+      'mais informações acesse: www.alphasoft-ce.com.br/dhxgame'

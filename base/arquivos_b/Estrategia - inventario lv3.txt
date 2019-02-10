@@ -1,0 +1,262 @@
+------------------------------------------     ''fazer o 'modo boss' tipo mercenarios 'RE3'   (levar 'info' pronto p/ alguem conferir o portugues)     """""época: 1680"""""
+HEAD:                                           nº max:20                (trocar 'gold' por 'money')             [desenhar slotes vazios no menu de equipar. ex:'mão nua' ou deixar em branco]
+------------------------------------------                                           (colocar no menu os status magicos do personagem:imune,vulneravel,etc)  
+***  bandage                  DEF:=0   DMA:+1   FÇA:=0   INT:+1   SOR:=0   RANK:D     LOC: in-al / (L1) /                  R$:           INFO: Uma bandana feita de pano que protege um pouco a cabeça.
+***  leather hat             DEF:+1   DMA:=0   FÇA:=0   INT:=0   SOR:+1   RANK:D     LOC: in-fr / (L1) /                  R$:200     INFO: Um chapéu feito de couro muito comum em toda a europa por ser leve e elegante.
+***  pirate hat                DEF:=0   DMA:=0   FÇA:+3   INT:+3   SOR:+5   RANK:B     LOC:                                        R$:           INFO: Chapéu já usado por vários piratas conhecidos. Ele não possui defesas mas aumenta bem os outros estatus.
+***  crown                      DEF:+1   DMA:+1   FÇA:-3    INT:-3    SOR:+9   RANK:A     LOC:                                        R$:           INFO: Coroa histórica passada entre gerações por vários reis famosos. Aumenta extremamente a sorte de quem a usa.
+***  mystic hat              DEF:=0   DMA:+2   FÇA:=0   INT:+1   SOR:+1   RANK:D     LOC: (L1) /                             R$:            INFO: Um gorro usado por magos aprendizes. Aumenta seus estatus mágicos. 
+***  circlet                     DEF:=0   DMA:+3   FÇA:-2   INT:+2   SOR:+1   RANK:C     LOC: (L2) /                               R$:           INFO: Uma coroa luminosa que circunda a cabeça dos santos. Possui grandes capacidades mágicas.
+***  gnome mask          DEF:+1   DMA:+4   FÇA:=0   INT:+2   SOR:+3   RANK:C     LOC: (L3) / nº 'gnome'          R$:           INFO: Essa máscara com o formato da cabeça de um gnomo contém parte dos poderes místicos deles.
+***  mystic circlet         DEF:=0   DMA:+5   FÇA:-2   INT:+3   SOR:+2   RANK:B     LOC: (L4) /                               R$:           INFO: Auréola com poderes místicos mais avançados que as normais. Ultilizada por santos mais poderosos.
+***  arcana's mask       DEF:+2   DMA:+6   FÇA:=0   INT:+3   SOR:+2   RANK:B     LOC: nº 'arcana'                    R$:           INFO: Máscara lendária que inflige uma influência nos estatus mentais do usuário.
+***  ruby circlet             DEF:+1   DMA:+7   FÇA:-2   INT:+5   SOR:+2   RANK:A     LOC: (L5) /                               R$:           INFO: Uma auréola com um rubi encrustado em seu centro, aumentando suas capacidades mágicas.
+***  wizard hat              DEF:+2   DMA:+8   FÇA:=0   INT:+9   SOR:+4   RANK:A     LOC:                                         R$:           INFO: Chapél que pertenceu á um mago muito poderoso. Agora, parte de seus poderes está contido nele.
+***  golden circlet         DEF:+3   DMA:+9   FÇA:-2   INT:+7   SOR:+4   RANK:S     LOC:                                          R$:           INFO: Uma poderosa auréola feita de ouro puro com capacidades mágicas extremas. 
+***  iron helm                DEF:+2   DMA:=0   FÇA:+1   INT:=0   SOR:=0   RANK:D     LOC: in-bo / (L2) /                  R$:           INFO: Capacete rústico todo feito de minério de ferro. Ele é muito usado por guerreiros europeus. 
+***  century helm          DEF:+3   DMA:=0   FÇA:+2   INT:=0   SOR:=0   RANK:C     LOC: (L2) /                              R$:           INFO: Esse capacete fechado é usado somente por um grupo especial de cavaleiros denominados: Os Centurys.
+***  steel helm               DEF:+4   DMA:=0   FÇA:+3   INT:=0   SOR:=0   RANK:C     LOC: (L3) /                               R$:           INFO: Capacete forjado de uma liga de metal bem leve e resistênte.
+***  genji helm              DEF:+5   DMA:+1   FÇA:+4   INT:-2   SOR:+2   RANK:B     LOC:                                           R$:           INFO: Esse capacete foi usado pelo próprio guerreiro Genghis Khan na região da Mongolia.
+***  dragon helm          DEF:+6   DMA:+2   FÇA:+5   INT:-2   SOR:+1   RANK:B     LOC: (L4) /                                R$:           INFO: Esse capacete foi esculpido com escamas de dragão que são muito resistêntes à ataques.
+***  hermes's helm       DEF:+7   DMA:+2   FÇA:+6   INT:-2   SOR:+2   RANK:A     LOC: (L5) /                                R$:           INFO: O mensageiro dos deuses gregos usava esse capacete alado forjado por Hefesto, um dos deuses.
+***  grand helm            DEF:+9   DMA:+3   FÇA:+9   INT:-2   SOR:=0   RANK:S      LOC:                                           R$:           INFO: O lendário capacete grandioso, possuidor de uma grande capacidade defensiva além de aumentar muito a força.
+***  luxurius's helm      DEF:+7   DMA:+7   FÇA:+7   INT:+7   SOR:-7   RANK:S      LOC:                                           R$:           INFO: Capacete supremo que pertenceu ao lorde Luxurius. Seus estatus se elevam à um número perfeito.
+------------------------------------------
+ARMOR:                                       nº max:27       *=nome/rank    **=desenho   ***=status/info     ****=localização/preço             
+------------------------------------------
+***  cotton tunic              DEF:+01   DMA:+01   FÇA:=00   INT:=00   SOR:=00   RANK:D    LOC: in-fr / (L1) /                            R$:          INFO: Túnica feita de algodão cozido não muito resistente usada por aldeões.  
+***  leather belt               DEF:+01   DMA:=00   FÇA:+02   INT:+02   SOR:+02   RANK:D    LOC: (L2) /                                       R$:          INFO: Cinturão de couro normalmente usado pelos bárbaros. Aumenta vários estatus. 
+***  heavy coat                DEF:+03   DMA:+01   FÇA:+01   INT:+01   SOR:+03   RANK:C    LOC: (L3) /                                       R$:          INFO: Um casaco de lã bem forrado que protege do frio europeu.  
+***  viking coat                DEF:+02   DMA:+02   FÇA:+05   INT:=00   SOR:-05   RANK:B    LOC:                                                  R$:          INFO: Casaco feito de pele de urso e bainhado de sangue pelos vikings. 
+***  fury belt                     DEF:+05   DMA:=00   FÇA:+09   INT:-05   SOR:-05   RANK:A    LOC:                                                   R$:          INFO: Cinturão dado somente aos guerreiros mais corajosos e valentes. 
+***  bronze cuirass          DEF:+04   DMA:=00   FÇA:+01   INT:=00   SOR:=00   RANK:D    LOC: (L1) /                                       R$:          INFO: Peitoral básico todo feito de bronze produzido em um serralheria Babilonica.
+***  scale cuirass             DEF:+05   DMA:+01   FÇA:+01   INT:=00   SOR:=00   RANK:D    LOC: (L2) /                                       R$:          INFO: Peitoral de ferro reforçado com escamas de merman, tornando-a mais resistênte. 
+***  steel plate                 DEF:+07   DMA:+02   FÇA:+02   INT:=00   SOR:=00   RANK:C    LOC: (L2) /                                       R$:          INFO: Chapa completa com ombreiras feita de uma liga de aço fundido.
+***  silver plate                DEF:+09   DMA:+03   FÇA:+02   INT:=00   SOR:=00   RANK:C    LOC: (L3) /                                       R$:          INFO: Uma Chapa feita de prata com ombros reforçados, boa para quaquer batalha.
+***  samurai armor         DEF:+11   DMA:+05   FÇA:+03   INT:+03   SOR:+03   RANK:B    LOC:                                                  R$:           INFO: Uma armadura resistênte usada pelos guerreiros samurais japonêses.
+***  bones mail                DEF:+13   DMA:+02   FÇA:+03   INT:+05   SOR:=00   RANK:B    LOC:                                                  R$:           INFO: Armadura feita com ossos de mortos-vivos que oferece uma boa defesa e ataque.
+***  gold armor               DEF:+15   DMA:+06   FÇA:+03   INT:=00   SOR:=00   RANK:B    LOC: (L4) /                                       R$:           INFO: Armadura valiosa toda feita de ouro maciço e difícil de ser penetrada.
+***  mythzor's armor      DEF:+16   DMA:+10   FÇA:+04   INT:+04   SOR:=00   RANK:A    LOC:                                                  R$:           INFO: Armadura que foi usada pelo Mythzor, o deus dos sentimentos humanos. 
+***  diamond plate          DEF:+18   DMA:+07   FÇA:+04   INT:=00   SOR:+02   RANK:A   LOC: (L4) /                                       R$:           INFO: Peitoral recoberta com milhares de diamantes, aumentando expressivamente seu poder defensivo.
+***  platinum armor       DEF:+20   DMA:+08   FÇA:+04   INT:=00   SOR:=00   RANK:A    LOC: (L5) /                                       R$:          INFO: Uma armadura quase impenetrável feita de platina, um material muito raro e extremamente resistênte. 
+***  gladius's armor        DEF:+22   DMA:+11   FÇA:+05   INT:+02   SOR:=00   RANK:S    LOC:                                                  R$:          INFO: A poderosa armadura feita com pedaços da armadura de Gladius, o guardião supremo do lorde Luxurius. 
+***  grand armor             DEF:+25   DMA:+12   FÇA:+05   INT:=00   SOR:=00   RANK:S    LOC:                                                  R$:          INFO: A fantástica e lendária armadura grandiosa, possuidora de uma defesa insuperável. 
+***  air plate                    DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:C    LOC:                                                   R$:          INFO: Um peitoral  com proteção de ar que resiste à ataques de vento mas é vulnerável à danos físicos.
+***  ice mail                     DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:C     LOC:                                                  R$:          INFO: Um peitoral com proteção congelante que resiste à ataques de água e gelo mas é vulnerável à ataques de raio.
+***  foliage armor           DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:C    LOC:                                                  R$:          INFO: Armadura toda feita de folhas especiais que resiste à ataques de natureza mas é vulnerável à ataques de fogo.
+***  meteor plate            DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:C     LOC:                                                  R$:          INFO: Armadura feita com pedaços de meteoro que resiste à ataques de terra mas é vulnerável à ataques de vento.
+***  solar plate                DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:B     LOC:                                                 R$:          INFO: Armadura reluzente que resiste à ataques de luz mas é vulnerável à ataques de natureza.
+***  darkness armor       DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:B     LOC:                                                 R$:          INFO: Armadura emergida da escuridão mais profunda. Resiste à ataques de trevas, mas é vulnerável à ataques de luz. 
+***  lightning mail           DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:B    LOC:                                                  R$:          INFO: Um peitoral com proteção eletrica que resiste à ataques de raio mas é vulnerável à ataques de terra. 
+***  fire mail                    DEF:+08   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:B     LOC:                                                 R$:          INFO: Um peitoral com proteção em chamas que resiste à ataques de fogo mas é vulnerável à ataques de água e gelo.
+***  maximilian               DEF:+01   DMA:+01   FÇA:=00   INT:=00   SOR:-05   RANK:A     LOC: (L5) /                                       R$:          INFO: Uma armadura germanica incomum. Resiste à danos físicos mas é vulnerável à ataques de trevas.  
+***  luxurius's armor      DEF:+15   DMA:+07   FÇA:+03   INT:+03   SOR:-15   RANK:S     LOC:                                                   R$:          INFO: Armadura suprema que pertenceu ao lorde Luxurius. Resiste à danos físicos.    
+------------------------------------------
+CLOAKS:                                      nº max:20    
+------------------------------------------
+***  cotton cloak               DEF:=00   DMA:+02   FÇA:=00   INT:+01   SOR:=00   RANK:D     LOC: in-al / (L1) /                  R$:              INFO: Manto todo feito e custurado com algodão cuzido e lã de carneiro.
+***  leather cape               DEF:+01   DMA:+04   FÇA:=00   INT:+01   SOR:+01   RANK:D     LOC: (L2) /                             R$:              INFO: Capa feita de couro reforçado mas sem muita proteção física.
+***  medieval cloak          DEF:+03   DMA:+06   FÇA:+01   INT:=00   SOR:=00   RANK:C     LOC: (L2) /                              R$:              INFO: Capa usada pelos nobres e pelos sacerdotes na época medieval.
+***  elf cape                       DEF:+04   DMA:+07   FÇA:=00   INT:+03   SOR:+03   RANK:C     LOC:                                         R$:              INFO: Essa capa foi feita pelos elfos da floresta com materias desconhecidos pelo homem.
+***  blood cape                 DEF:+01   DMA:+09   FÇA:+02   INT:=00   SOR:-02   RANK:C     LOC: (L3) /                               R$:              INFO: Uma capa de couro bainhada em sangue, quase não possui defesa física mas eleva a sua força.
+***  shadow cloak            DEF:+05   DMA:+12   FÇA:=00   INT:+03   SOR:=00   RANK:B     LOC: (L3) /                               R$:              INFO: O manto escuro como as sombras, garante uma boa camuflage em ambientes escuros. 
+***  crystal cape               DEF:+08   DMA:+14   FÇA:=00   INT:+04   SOR:+02   RANK:B     LOC: (L4) /                               R$:              INFO: Capa recoberta de cristais transparentes que deixa quem o usa parcialmente invisivel.
+***  mystic cloak              DEF:+06   DMA:+17   FÇA:=00   INT:+05   SOR:=00   RANK:B     LOC: (L4) /                               R$:              INFO: Um manto aparentemente normal mas que possui poderes místicos misteriosos.
+***  demmector's cloak  DEF:+04   DMA:+18   FÇA:+03   INT:+03   SOR:+03   RANK:A     LOC:                                          R$:              INFO: Esse manto poderoso já foi usado pelo Demmector, o deus das florestas.  
+***  wise cape                   DEF:+07   DMA:+20   FÇA:=00   INT:+09   SOR:-05   RANK:A     LOC: (L5) /                              R$:              INFO: Capa já usada por um mago muito sábio e poderoso. Dizem quem a coloca-la se tornará muito inteligente.
+***  royal cloak                DEF:+09   DMA:+25   FÇA:=00   INT:+04   SOR:+02   RANK:S      LOC:                                         R$:              INFO: O manto dos membros imperiais, possuidor de uma defesa mágica insuperável. O melhor manto já feito pelo homem.
+***  luxurius's cloak        DEF:+12   DMA:+22   FÇA:=00   INT:+08   SOR:+08    RANK:S      LOC:                                         R$:              INFO: Manto supremo que pertenceu ao lorde Luxurius. Eleva muito seus estatus.
+***  feather cloak            DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:B     LOC:                                         R$:              INFO: Manto criado pelo mago mor do vento "fulano", foi toda feita de penas de harpias. Resistênte à vento. 
+***  impermeable cape  DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:B     LOC:                                         R$:              INFO: Capa criada pelo mago mor das águas Aquim, ela é boa em lugares úmidos. Resistênte à água e gelo. 
+***  camuflage cape       DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:B     LOC:                                         R$:              INFO: Capa criada pelo mago mor da natureza "fulano", pode atravesar uma selva sem arranhões. Resistênte à natureza. 
+***  egyptian cloak         DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:B     LOC:                                         R$:              INFO: Manto criado pelo mago mor da terra "fulano", perfeita contra tempestades de areia. Resistênte à terra.
+***  gods' cloak               DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:A     LOC:                                         R$:              INFO: Manto criado pelo mago mor da luz "fulano", contém resquícios de poderes divinos. Resistênte à luz. 
+***  vampire's cape        DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:A     LOC:                                         R$:              INFO: Capa criada pelo mago mor das trevas Grael, contém energias obscuras em seu interior. Resistênte à trevas. 
+***  mirror cape              DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:A     LOC:                                         R$:              INFO: Capa criada pelo mago mor do raio "fulano", ela é toda espelhada para refletir energias eletricas. Resistênte à raio. 
+***  anti-flame cape       DEF:+01   DMA:+08   FÇA:=00   INT:+05   SOR:+05   RANK:A     LOC:                                         R$:              INFO: Capa criada pelo mago mor do fogo "fulano", ela é boa em lugares extremamente quentes. Resistênte à fogo. 
+------------------------------------------
+ACESSORIES:                              nº max:25       (os charms ocupam dois espaços nos acessórios portanto ñ pode equipar dois friends ao mesmo tempo nem outro acessorio.)
+------------------------------------------            *=nome/rank    **=desenho   ***=status/info     ****=localização/preço 
+***  star ring                      DEF:+1   DMA:+1   FÇA:+1  INT:+1   SOR:+1    RANK:D     LOC: (L1) /                              R$:              INFO: Anél com uma estrela de cinco pontas que aumenta um pouco de cada um dos cinco estatus. 
+***  master ring                 DEF:+3  DMA:+3   FÇA:+3  INT:+3   SOR:+3    RANK:A     LOC: (L5) /                               R$:              INFO: Esse anél foi usado apenas pelos melhores e mais fortes cavaleiros de todos os tempos. Eleva todos os estatus. 
+***  wise ring                     DEF:       DMA:+7   FÇA:       INT:+7   SOR:         RANK:B     LOC:                                         R$:              INFO: Anél passado em geração à geração por uma ordem oculta de sábios. Aumenta seus estatus mágicos. 
+***  ares's ring                   DEF:-8   DMA:-8    FÇA:+12 INT:       SOR:         RANK:B     LOC:                                         R$:              INFO: Anél dado pelo deus da guerra à um humano que desejava tem uma força descomunal. Aumenta muito a força. 
+***  midas's ring                DEF:       DMA:       FÇA:        INT:       SOR:+5    RANK:B     LOC:                                         R$:              INFO: Anél que pertenceu ao rei Midas, possibilita você ganhar dinheiro quando sofre algum dano. 
+***  four-leaf clover          DEF:       DMA:       FÇA:       INT:        SOR:+13  RANK:B     LOC: (L5) /                              R$:              INFO: Amuleto muito famoso que aumenta consideravelmente a sorte de quem o usa. 
+***  golden brooch            DEF:+1   DMA:+1   FÇA:+1  INT:+1   SOR:+1    RANK:C     LOC:                                         R$:              INFO: Esse broche dourado tem o poder de anular os pontos fracos de quem o usa. 
+***  key of life                    DEF:+6  DMA:+6   FÇA:        INT:       SOR:+3     RANK:A     LOC:                                         R$:              INFO: Simbolo Egípcio, a chave portadora da dádivas da vida que eleva suas defesas físicas e mágias. 
+***  sun stone                     DEF:+3  DMA:-3   FÇA:+2   INT:-2    SOR:         RANK:D     LOC: (L3) /                               R$:              INFO: Pedra influenciada pela luz do sol que aumenta seus estatus físicos mas diminui os estatus mágicos. 
+***  moon stone                 DEF:-3   DMA:+3  FÇA:-2    INT:+2   SOR:         RANK:D     LOC: (L3) /                              R$:              INFO: Pedra influenciada pela energia da lua que aumenta seus estatus mágicos mas diminui os estatus físicos. 
+***  mystic pendant           DEF:      DMA:+2   FÇA:       INT:+2   SOR:         RANK:C     LOC:                                         R$:              INFO: Um pendante cheio de poderes místicos que encarece a recarga natural de MP. 
+***  iris's necklace             DEF:      DMA:        FÇA:       INT:       SOR:         RANK:C     LOC:                                         R$:              INFO: Colar que pertenceu à uma rainha egípcia, tem à capacidade de aumentar os efeitos das medicinas em 50%. 
+***  heart pendant             DEF:      DMA:        FÇA:      INT:        SOR:         RANK:B     LOC:                                         R$:              INFO: Quem usar esse pendante com coração tem a possibilidade de reduzir o custo de MP nos especiais. 
+***  vampire fangs            DEF:-2   DMA:-2    FÇA:       INT:        SOR:         RANK:C     LOC: (L4) /                             R$:              INFO: Colar com presas de vampiros que permite ganhar um pouco de HP quando golpeia algum inimigo. 
+***  experience pendant   DEF:      DMA:       FÇA:        INT:        SOR:         RANK:A     LOC:                                         R$:              INFO: Pendante especial que aumenta em 50% a experiência adquirida matando os inimigos. 
+***  skull bracelet              DEF:      DMA:       FÇA:+6   INT:+6    SOR:-2      RANK:B     LOC:                                         R$:              INFO: Bracelete de Shinor cujo poder foi inserido pelas almas das suas vitimas, aumenta sua força e inteligencia. 
+***  gordon bracelet          DEF:+1 DMA:      FÇA:+1    INT:         SOR:         RANK:C     LOC: (L2) /                              R$:              INFO: Bracelete usado pelos gordons, possibilita recuperar 50% a mais de HP atravez dos alimentos. 
+***  demmector's braceletDEF:+2  DMA:      FÇA:+5   INT:         SOR:-5      RANK:A     LOC:                                         R$:              INFO: Demmector, o deus das florestas usava esse bracelete para esmagar suas presas. Aumenta seus estatus físicos. 
+***  luxurius's ring              DEF:     DMA:       FÇA:       INT:         SOR:-5      RANK:S     LOC:                                         R$:              INFO: Anél do lorde Luxurius que aumenta a probabilidade de criar ataques com dados críticos. 
+***  luxurius's necklace     DEF:     DMA:       FÇA:        INT:        SOR:-10    RANK:S     LOC:                                         R$:              INFO: Colar do lorde Luxurius que possibilita uma probabilidade de anular os seus danos físicos. 
+***  seven-gods' necklace DEF:     DMA:       FÇA:        INT:        SOR:-7      RANK:S     LOC:                                         R$:              INFO: Colar criado com essência dos sete deuses que lhe deixa imune à qualquer tipo de magia, mas o MP reduzirá à 0. 
+***  golen charm                convoca o friend golen (gasta MP por tempo)        RANK:B     LOC:                                         R$:              INFO: Amuleto que convoca o monstro de apoio golen para lutar ao seu lado. Custo de invocação por segundo (3 MP)        
+***  fairy charm                 convoca o friend fairy (gasta MP por tempo)          RANK:B     LOC:                                         R$:              INFO: Amuleto que convoca o monstro de apoio fairy para lutar ao seu lado. Custo de invocação por segundo (2 MP)                  
+***  dragon charm             convoca o friend dragon (gasta MP por tempo)     RANK:A     LOC:                                         R$:              INFO: Amuleto que convoca o monstro de apoio dragon para lutar ao seu lado. Custo de invocação por segundo (2 MP)                 
+***  devil charm                 convoca o friend devil (gasta MP por tempo)          RANK:A     LOC:                                         R$:              INFO: Amuleto que convoca o monstro de apoio demon para lutar ao seu lado. Custo de invocação por segundo (3 MP)                
+------------------------------------------
+MEDICINE:                                 nº max:20      *=nome/rank    **=desenho    ***=info/status    ****=local/R$
+------------------------------------------      ''capsulas aumentam 50% do estatus normal, ñ com o bonus.''
+***  potion                     HP:+100  MP:            RES:                     RANK:D     LOC: (L1) /                                 R$:              INFO: Poção vital básica. Recupera pouco HP.   
+***  high potion            HP:+250   MP:            RES:                    RANK:B     LOC: (L4) /                                 R$:              INFO: Poção vital alta. Recupera razoavelmente o HP.
+***  x potion                 HP:+500   MP:            RES:                     RANK:A     LOC: (L5) /                                R$:              INFO: Poção vital definitiva. Recupera muito o HP.
+***  ether                      HP:           MP:+50      RES:                     RANK:C     LOC: (L2) /                                 R$:              INFO: Pocão mágica básica. Recupera razoavelmente MP.
+***  high ether              HP:           MP:+150    RES:                    RANK:A     LOC: (L5) /                                 R$:              INFO: Poção mágica alta. Recupera bastante o MP. 
+***  adrenaline             HP:+175  MP:+100    RES:                    RANK:B     LOC: (L3) /                                 R$:              INFO: Injeção de adrenalina. Recupera tanto HP como MP.
+***  elixir                       HP:+full   MP:+full    RES:                     RANK:S     LOC: cenário                               R$:              INFO: Líquido misterioso que restaura completamente todo o seu HP e MP.
+***  wind resistance      HP:           MP:            RES: wind          RANK:B     LOC: (L1) /                                 R$:              INFO: Poção feita para adquirir resistência á magias de vento.
+***  aqua resistance      HP:           MP:            RES: water/ice  RANK:B     LOC: (L1) /                                R$:              INFO: Poção feita para adquirir resistência á magias de água e gelo.
+***  nature resistance   HP:           MP:            RES: nature       RANK:B     LOC: (L2) /                                 R$:              INFO: Poção feita para adquirir resistência á magias de natureza.
+***  earth resistance     HP:           MP:            RES: earth         RANK:B     LOC: (L2) /                                 R$:              INFO: Poção feita para adquirir resistência á magias de terra e areia.
+***  holy resistance      HP:           MP:            RES: light/holy   RANK:B     LOC: (L3) /                                 R$:              INFO: Poção feita para adquirir resistência á magias de luz e sagradas.
+***  dark resistance     HP:           MP:            RES: dark           RANK:B     LOC: (L3) /                                 R$:              INFO: Poção feita para adquirir resistência á magias de trevas. 
+***  thunder resistance HP:           MP:            RES: thunder    RANK:B     LOC: (L4) /                                 R$:              INFO: Poção feita para adquirir resistência á magias de relâmpago.
+***  fire resistance        HP:           MP:            RES: fire             RANK:B     LOC: (L4) /                                 R$:              INFO: Poção feita para adquirir resistência á magias de fogo.
+***  power capsule       HP:           MP:            FÇA: +50%        RANK:A     LOC: cenário/enemy                 R$:              INFO: Capsula que aumenta os atributos de força por alguns instântes. 
+***  shield capsule        HP:           MP:            DEF: +50%        RANK:A     LOC: cenário/enemy                 R$:              INFO: Capsula que aumenta os atributos de defesa física por alguns instântes.
+***  mystic capsule       HP:           MP:           DMA: +50%       RANK:A     LOC: cenário/enemy                 R$:              INFO: Capsula que aumenta os atributos de defesa mágica por alguns instântes.
+***  luck capsule          HP:           MP:            SOR: +50%        RANK:A     LOC: cenário/enemy                 R$:              INFO: Capsula que aumenta os atributos de sorte por alguns instântes. 
+***  wise capsule          HP:           MP:            INT: +50%         RANK:A     LOC: cenário/enemy                  R$:              INFO: Capsula que aumenta os atributos de inteligência por alguns instântes.
+------------------------------------------
+FOODS:                          nº max:20         *=nome/rank    **=desenho    ***=info/hp+    ****=local/R$
+------------------------------------------
+***  mushroom            HP:+/-50/75/100       RANK:D     LOC: cenário / inimigos         R$:             INFO: Cogumelos traiçoeiros, pode ganhar ou perder HP ao comê-los. 
+***  orange                  HP:+20/30/40            RANK:D     LOC:                                         R$:             INFO: Fruta rica em vitamina C, foi trazida do novo mundo. Recupera pouco o HP.
+***  green tea   MP e HP:+26/39/52           RANK:D     LOC:                                         R$:             INFO: Chá preparado com várias folhas raras diferentes. Recupera tanto HP como MP.
+***  apple                     HP:+30/45/60            RANK:D     LOC:                                         R$:             INFO: Essa maça foi colhida há poucos dias. Recupera pouco o HP.
+***  eggs                      HP:+40/60/80             RANK:C     LOC:                                         R$:             INFO: Alguns ovos fritos temperados com condimentos afrodiziacos. Recupera pouco o HP. 
+***  milk                       HP:+40/60/80            RANK:C     LOC:                                         R$:             INFO: Leite recém retirado e fervido usado em várias receitas. Recupera razoavélmente o HP. 
+***  bananas                HP:+50/75/100          RANK:C     LOC:                                         R$:             INFO: Cacho cheio de bananas nutritivas. Recupera razoavélmente o HP.  
+***  pineapple             HP:+60/80/120           RANK:C     LOC:                                         R$:             INFO: Uma fruta não muito conhecida pelo oriente médio. Recupera razoavélmente o HP.
+***  soap           MP e HP:+50/75/100           RANK:C     LOC:                                         R$:             INFO: Uma sopa medicinal usada muito em hospitais. Recupera tanto HP como MP.
+***  bread                    HP:+66/99/132           RANK:B     LOC:                                         R$:             INFO: Pão feito basicamente de água, farinha e fermento. Recupera bastante o HP.
+***  omelette               HP:+70/105/140         RANK:B     LOC:                                         R$:              INFO: Feito com ovos e vários outros ingredientes importantes. Recupera bastante o HP. 
+***  hen thigh              HP:+80/120/160         RANK:B     LOC:                                         R$:              INFO: Uma coxa de frango bem assada e suculenta. Recupera bastante o HP. 
+***  rice with bean      HP:+90/135/180         RANK:B     LOC:                                         R$:              INFO: Comida simples mas não deixa de ser saborosa e nutritiva. Recupera bastante o HP.
+***  roast beef             HP:+100/150/200       RANK:A     LOC:                                         R$:              INFO: Prato de comida cheio de carnes fatiadas. Recupera muito o HP.
+***  cheese                   HP+120/180/240         RANK:A     LOC:                                         R$:              INFO: Pedaço de queijo suiço de primeira qualidade. Recupera muito o HP.
+***  spaghetti              HP:+150/225/300        RANK:A     LOC:                                         R$:              INFO: Uma porção cheia de macarrão com molho. Recupera muito o HP.
+***  lunch                    HP:+200/300/400         RANK:A     LOC:                                         R$:              INFO: Almoço completo feito normalmente para operários. Recupera muito o HP.
+***  turkey                  HP:+250/375/500         RANK:S      LOC:                                         R$:              INFO: Um peru bem grande assado. Recupera significativamente o HP.
+***  sirloin                   HP:+300/450/600         RANK:S     LOC:                                         R$:              INFO: Lombo e coxa de vaca assados. Recupera significativamente o HP.
+***  roast lamb           HP:+400/600/800         RANK:S     LOC:                                         R$:              INFO: Um cordeiro inteiro assado com batatas. Recupera significativamente o HP.         
+------------------------------------------ 
+LOOTS:                          nº max:12                    dinheiro: 'bronze, silver, gold'   /   ''dois niveis - itens de candelabros''
+------------------------------------------                        
+***  aquamarine      R$:             RANK:D     LOC: cenário / inimigos                INFO: Pedra pouco valiosa que tem esse nome por ter uma coloração que lembra a cor do mar.
+***  amethyst           R$:             RANK:D     LOC: cenário                                  INFO: Pedra pouco valiosa facilmente encontrada em muitos lugares diferentes. Sua aparência lembra o amber.
+***  topaz                 R$:             RANK:C     LOC: cenário                                  INFO: Pedra semi-valiosa muito brilhante e com formato quadriculado parecendo um prisma.
+***  jade                   R$:             RANK:C     LOC: cenário                                  INFO: Pedra semi-valiosa comum de ser encontrada em toda a ásia e usada muito como jóias pelas mulçumanas.
+***  pearl                 R$:             RANK:C     LOC: cenário                                   INFO: Pedra semi-valiosa com formato de glóbolo encontrada dentro das conchas de águas salgadas. 
+***  beryl                 R$:             RANK:B     LOC: cenário                                   INFO: Pedra valiosa com uma coloração que lembra as pepitas de ouro, mas depois de lapidada, ela fica bem lisa.
+***  turquoise          R$:             RANK:B     LOC: cenário                                  INFO: Pedra valiosa encontrada de várias cores e formatos, mas a mais preciosa é a roxa oval.
+***  emerald            R$:             RANK:B     LOC: cenário                                  INFO: Pedra bastante valiosa minerada por algumas nações em grande escala, mesmo assim ela é considerada rara.
+***  black pearl       R$:            RANK:A     LOC: cenário                                  INFO: Pedra bastante valiosa e uma dos tipos de pérolas mais raras de serem encontradas nos mares.  
+***  sapphire           R$:             RANK:A     LOC: cenário                                  INFO: Pedra muito valiosa difícil de ser encontrada por não tem um local próprio de escavação.       
+***  ruby                  R$:             RANK:A     LOC: cenário                                  INFO: Pedra muito valiosa de coloração avermelhada que exige um processo muito extenso na lapidação e polimento.
+***  diamond           R$:             RANK:S     LOC: cenário                                   INFO: Pedra valiocissima por ser muito brilhante, é sem dúvida a pedra preciosa mais cobiçada no mundo inteiro. 
+------------------------------------------ 
+OTHERS:                         nº max:24         reliquias= habilidade / movimento / especial 
+------------------------------------------ 
+***  map 1                         LOC:                RANK: C     INFO: Mapa que mostra partes da região da cidade, do castelo e das masmorras.   
+***  map 2                         LOC:                RANK: B     INFO: Mapa que mostra partes da região da torre, da encosta e da floresta.   
+***  map 3                         LOC:                RANK: A     INFO: Mapa que mostra partes da região das montanhas, dos templos, do cemitério e do deserto.   
+***  map secret                 LOC:                RANK: S     INFO: Mapa perdido que mostra algumas áreas secretas em todas as regiões.    
+                     
+ al***  relic of sky               M: long glide                        LOC: zaramir 1          RANK:C     INFO:Reliquia guardada pelo céu que permite ao Alucard planar longas distâncias.
+ fr***  relic of sea                H: respirar under water     LOC: calypso 1          RANK:C     INFO: Reliquia guardada pelo mar que permite ao Frederic poder respirar debaixo d'agua. 
+an***  relic of nature         M: dash                                 LOC: demmector 1   RANK:C     INFO: Reliquia guardada pela natureza que permite à Anita usar a habilidade do dash.
+bo***  relic of earth            H: quebrar rochas               LOC: zaradir 1          RANK:C     INFO: Reliquia guardada pela terra que permite ao Bóris à habilidade de quebra rochas com sua arma.
+
+ al***  relic of spirit             H: andar cima d'aqua        LOC: mythzor 1        RANK:B     INFO: Reliquia que dá o poder ao Alucard de andar sobre as águas normalmente.
+ fr***  relic of sacrament   M: corrida                            LOC: legion               RANK:B     INFO: Reliquia que dá o poder ao Frederic de correr bem mais rápido que o normal.                         
+an***  relic of life                H: super-jump                     LOC: deserts 1           RANK:B     INFO: Reliquia que dá o poder à Anita de dar um super-pulo muito altos.
+bo***  relic of pain             M: andar nos espinhos        LOC: gladius 1           RANK:B     INFO: Reliquia que dá o poder ao Bóris de andar nos espinhos sem se ferir.   
+ 
+ al***  relic of power             S: hellfire                          LOC:luxurius 1         RANK:A     INFO: Reliquia que permite poder aplicar o especial mais poderoso do Alucard: o Hellfire.          
+ fr***  relic of wisdom          S: frozen spiral                 LOC:city 2                RANK:A     INFO: Reliquia que permite poder aplicar o especial mais poderoso do Frederic: o Frozen Spiral.
+an***  relic of true                S: luminous dash             LOC:mountains 2     RANK:A     INFO: Reliquia que permite poder aplicar o especial mais poderoso da Anita: o Luminous Dash.
+bo***  relic of courage         S: wind cut                       LOC:desert 2            RANK:A     INFO: Reliquia que permite poder aplicar o especial mais poderoso do Bóris: o Wind Cut.
+
+***  heart of souls             OUTROS: abilita portais  LOC: cathacresys 2    RANK:S     INFO: Reliquia especial que o Cathacresys usa para acessar portais especiais e aprisionar almas dentro dela.
+***  black fragment          OUTROS: key final           LOC: cathacresys 2    RANK:S     INFO: Peça chave guardada pelo Cathacresys para abrir os portões do castelo do lorde Luxurius.
+***  yellow fragment         OUTROS: key final          LOC: zaramir 2           RANK:S     INFO: Peça chave guardada pelo deus Zaramir para abrir os portões do castelo do lorde Luxurius.
+***  blue fragment            OUTROS: key final           LOC: calypso 2           RANK:S     INFO: Peça chave guardada pela deusa Calypso para abrir os portões do castelo do lorde Luxurius.
+***  green fragment          OUTROS: key final          LOC: demmector 2     RANK:S     INFO: Peça chave guardada pelo deus Demmector para abrir os portões do castelo do lorde Luxurius.
+***  orange fragment       OUTROS: key final           LOC: zaradir 2            RANK:S     INFO: Peça chave guardada pelo deus Zaradir para abrir os portões do castelo do lorde Luxurius.
+***  violet fragment          OUTROS: key final           LOC: mythzor 2          RANK:S     INFO: Peça chave guardada pelo deus Mythzor para abrir os portões do castelo do lorde Luxurius.
+***  red fragment              OUTROS: key final           LOC: gladius 2            RANK:S     INFO: Peça chave guardada pelo guardião Gladius para abrir os portões do castelo do lorde Luxurius.
+
+------------------------------------------
+INTERFACE-INFO:
+------------------------------------------
+  estatus
+  equipar
+  inventário
+  enciclopédia
+  tutoriais
+  opções
+  controles
+  imagem
+  abandonar                              Saia da aventura atual e volte para o menu principal do jogo. Cuidado...
+
+  salvar
+  selecionar per12sonagem
+
+  teletransporte 
+  portal                                        Permite mudar de um plano para o outro.
+
+  comprar 
+  vender
+  objetivo
+   
+------------------------------------------
+HABILIDADES:
+------------------------------------------
+  double jump                               ( X, X )
+  aloof                                            ( D )
+  glide                                             ( X, cima segurado )
+  darkness gate                             ( S )
+  long glide                                     ( X, X, cima segurado )
+  walk over water                         ( automático )
+  hell fire                                         ( S + cima )
+
+  double jump                                ( X, X )
+  guard                                           ( D )
+  mergulhar                                   ( automático )
+  explosion ray                               ( S )
+  respirar debaixo da agua          ( automático )
+  speed run                                     ( frente, frente segurado)
+  frozen spiral                                ( S + cima )
+
+  double jump                                ( X, X )
+  guard                                            ( D )
+  walk light                                     ( automático )
+  tiger fatality                                ( S )
+  dash                                             ( X, frente + X )
+  super-jump                                 ( baixo, cima, X )
+  luminous dash                            ( S + cima )
+  
+  guard                                           ( D )
+  trip                                               ( baixo, X )
+  double trip                                   ( baixo, X, X )
+  letal fury                                      ( S )
+  broken rocks                              ( automático )
+  walk spikes                                 ( automático )
+  wind cut                                      ( S + cima )
+------------------------------------------
+SUPPORT:                     nº max:5          "expansão ou não?"
+------------------------------------------
+*  justice power                       LOC:                                         RANK: S       INFO: 'O poder dos quatro heróis convergidos em um só ataque...'      
+*  alucard support                  LOC:                                         RANK: B       INFO:
+*  frederic support                 LOC:                                         RANK: B       INFO:
+*  anita support                      LOC:                                         RANK: B       INFO:
+*  bóris support                       LOC:                                         RANK: B       INFO:

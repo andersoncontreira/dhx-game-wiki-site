@@ -1,0 +1,39 @@
+1 Logon FECEB
+2 Logon Demon Hunter X
+3 Press Enter Key
+4 Menu Principal
+- Novo Jogo
+- Carregar 
+- Opções
+- Extras
+
+/// NOVO JOGO \\\
+- Entrada de Nome 
+- Seleção de Personagem
+- > Jogo
+\\\-----------///
+
+/// CARREGAR \\\
+-
+-
+-
+\\\----------///
+
+/// OPÇOES \\\
+-
+-
+-
+\\\---------///
+
+/// EXTRAS \\\
+- Modo Chefes
+- Modo Personagem Secreto
+(Necessita Zerar o Jogo)
+- historias
+ >personagens
+ >Cassius/Luxurius
+ >inimigos
+ (necessita comprar as fichas)
+- Ilustrações
+- Musicas
+\\\---------///

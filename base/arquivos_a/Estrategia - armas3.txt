@@ -1,0 +1,136 @@
+------------------------------------------              simbolos dos tipos de armas p/ 'info' =''iniciais''
+SWORDS COMMONs:           nº max:20                                                         OK                          
+------------------------------------------      
+Element=physical damage       nº max:8           
+****sabre                    ATQ=       quant=§§    RANK: D=01     LOC: inicial               PRÇ: não
+***  ninja sword         ATQ=       quant=§      RANK: D=02     LOC:                           PRÇ:
+***  grael sword         ATQ=       quant=§      RANK: C=04     LOC:                           PRÇ:         
+***  kings's sword      ATQ=       quant=§§    RANK: C=07     LOC:                           PRÇ:      
+***  morsel sword      ATQ=       quant=§      RANK: B=11     LOC:                           PRÇ:             
+***  attila's sword      ATQ=       quant=1      RANK: A=14     LOC:                           PRÇ:
+***  anbu sword         ATQ=       quant=§      RANK: A=17     LOC:                           PRÇ:
+***  hercules sword   ATQ=       quant=1      RANK: S=20      LOC:                           PRÇ:
+Element=fire                            nº max:2
+***  firebrand            ATQ=        quant=§§    RANK: B=10     LOC:                           PRÇ:
+***  vulcano               ATQ=        quant=§      RANK: A=15     LOC:                           PRÇ:   
+Element=ice/water                  nº max:3
+***  frost sword         ATQ=        quant=§§    RANK: C=05     LOC:                           PRÇ:
+***  vapor blade        ATQ=        quant=§      RANK: B=12     LOC:                           PRÇ:
+***  maelstron           ATQ=        quant=1      RANK: S=18      LOC: calypso 'p2'      PRÇ:         
+Element=thunder                    nº max:2
+***  lightning sword  ATQ=       quant=§§    RANK: C=06     LOC:                           PRÇ:    
+***  thunder blade     ATQ=       quant=§      RANK: A=13     LOC:                           PRÇ:
+Element=wind                         nº max:2
+***  twister brand       ATQ=      quant=§§    RANK: B=09     LOC:                           PRÇ:  
+***  aeres's valor        ATQ=       quant=§      RANK: A=16     LOC:                           PRÇ:     
+Element=light/holy                 nº max:3
+***  light blade           ATQ=       quant=§§    RANK: D=03     LOC:                           PRÇ:
+***  spirit sword         ATQ=       quant=§      RANK: C=08     LOC:                           PRÇ:
+***  gods's punish       ATQ=       quant=1      RANK: S=19     LOC:                           PRÇ:      
+------------------------------------------
+LONG WEAPONS:                            nº max:15                                             OK
+------------------------------------------
+Element=physical damage     nº max:6                                                    
+***  katana                 ATQ=       quant=1     RANK: D=01  well done mrs kreusa
+***  wakizahis            ATQ=       quant=§     RANK: C=
+***  masamune           ATQ=       quant=§§   RANK: A=       
+***  long lance           ATQ=       quant=§§   RANK: C=001
+***  trident                 ATQ=       quant=§     RANK: B=
+***  halberd                ATQ=       quant=1     RANK: A=
+Element=dark                         nº max:4
+***  oni katana           ATQ=       quant=§§   RANK: C=
+***  azagael sword     ATQ=       quant=1     RANK: A=
+***  calling sword      ATQ=       quant=1     RANK: S=09   
+***  chaos spear         ATQ=       quant=§     RANK: B=
+Element=earth                        nº max:2
+***  sandbrand           ATQ=       quant=§     RANK:        
+***  falchion lance     ATQ=       quant=§§    RANK:              
+Element=wind                         nº max:3
+***  sephiroth sword ATQ=       quant=§      RANK: S=08
+***  arcana spear      ATQ=       quant=§§    RANK:       
+***  crizaor spear      ATQ=       quant=1      RANK:  	
+------------------------------------------
+GREAT SWORDS:                            nº max:10                                     OK
+------------------------------------------
+Element=physical damage      nº max:5
+****defender               ATQ=       quant=§§  RANK: D=01     LOC: inicial               PRÇ: não
+***  excalibur              ATQ=       quant=1    RANK: C=02     LOC:                           PRÇ:   
+***  dragon killer       ATQ=       quant=§§   RANK: B=05     LOC:                           PRÇ:      
+***  celestial                ATQ=       quant=§    RANK: A=07     LOC:                           PRÇ:          
+***  master blade        ATQ=       quant=1    RANK: S=09     LOC: a.s. 'p2' final     PRÇ:        
+Element=dark                         nº max:3
+***  apocalipse             ATQ=       quant=§§  RANK: B=04     LOC:                           PRÇ:      
+***  obscure sword      ATQ=       quant=§    RANK: A=08     LOC:                           PRÇ:      
+****luxurius's sword  ATQ= 60  quant=1    RANK: S=10     LOC: modo boss         PRÇ: 2 gold      
+Element=earth                        nº max:2
+***  lizard's sword      ATQ=       quant=1    RANK: C=03     LOC:                           PRÇ:      
+***  cataclism              ATQ=       quant=§    RANK: A=06     LOC:                           PRÇ:
+------------------------------------------
+WHIPS:                                                nº max:15                                 OK
+------------------------------------------
+Element=physical damage    nº max:5
+****hunter's clan       ATQ=       quant=§     RANK: D=01     LOC: inicial               PRÇ: não
+***  steel chain           ATQ=       quant=§§   RANK: D=02     LOC:                           PRÇ:
+***  black whip          ATQ=       quant=§§   RANK: C=06     LOC:                           PRÇ:
+***  long chain           ATQ=       quant=§     RANK: B=09     LOC:                           PRÇ:
+***  master whip        ATQ=       quant=1     RANK: S=15     LOC:                           PRÇ:
+Element=light/holy                nº max:2
+***  light whip (alt)   ATQ=       quant=§     RANK: C=05     LOC:                           PRÇ:           
+***  vampire killer    ATQ=       quant=1     RANK: S=14     LOC:                           PRÇ:                 
+Element=nature                     nº max:2
+***  poison whip(alt) ATQ=       quant=§§   RANK: C=03     LOC:                           PRÇ:
+***  thorns whip        ATQ=       quant=§     RANK: A=11     LOC:                           PRÇ:       
+Element=fire                          nº max:2
+***  flame whip          ATQ=       quant=§    RANK: B=07     LOC:                           PRÇ:
+***  inferno whip       ATQ=       quant=1    RANK: A=12     LOC:                           PRÇ:       
+Element=ice/water                 nº max:2
+***  fog whip (alt)       ATQ=      quant=§    RANK: C=04     LOC:                           PRÇ:
+***  icy chain              ATQ=      quant=§    RANK: B=10     LOC:                           PRÇ:
+Element=thunder                   nº max:2
+***  eletric chain         ATQ=     quant=§§  RANK: B=08     LOC:                           PRÇ:
+***  thunder whip       ATQ=      quant=§    RANK: A=13     LOC:                           PRÇ:
+------------------------------------------ 
+SHORT WEAPONS:                           nº max:16                                OK
+------------------------------------------
+Element=physical damage      nº max:7
+***  barbarian dagger ATQ=       quant=§§   RANK: D=01     LOC:                           PRÇ:
+***  knife combat         ATQ=       quant=§§   RANK: C=02     LOC:                           PRÇ:         
+***  danjuro dagger    ATQ=        quant=§     RANK: A=05     LOC:                           PRÇ:          
+***  xian's dagger        ATQ=       quant=1     RANK: S=08      LOC:                           PRÇ:       
+***  viking axe             ATQ=        quant=§     RANK: C=001   LOC:                           PRÇ:
+***  dwarven mace      ATQ=        quant=§§   RANK: B=004   LOC:                           PRÇ:
+***  axe battle              ATQ=        quant=§     RANK: A=007   LOC:                           PRÇ:       
+Element=ice/water                  nº max:3
+***  polares                  ATQ=        quant=1    RANK: C=03     LOC:                           PRÇ:
+***  aurora mace         ATQ=        quant=      RANK: B=003   LOC:                           PRÇ:          
+***  freeze hammer      ATQ=        quant=§    RANK: A=005   LOC:                           PRÇ:    
+Element=fire                            nº max:3
+***  leones's dagger     ATQ=        quant=§    RANK: A=06     LOC:                           PRÇ:
+***  apollo mace           ATQ=        quant=      RANK: C=002   LOC:                           PRÇ:
+***  flame axe               ATQ=        quant=§§  RANK: A=006   LOC:                           PRÇ:
+Element=light/holy                  nº max:3
+***  catalua                   ATQ=        quant=      RANK: B=04    LOC:                           PRÇ:                        
+***  athena's dagger    ATQ=        quant=1    RANK: S=07     LOC:                           PRÇ:                    
+***  golden hammer     ATQ=        quant=1    RANK: S=008   LOC:                           PRÇ:
+------------------------------------------
+GLOVES:                                             nº max:14                                 OK
+------------------------------------------
+Element=physical damage       nº max:5
+****leather gloves       ATQ=           quant=§ in  RANK: D=01   LOC: inicial               PRÇ: não                
+***  steel gloves            ATQ=          quant=§§     RANK:        
+***  tiger's paw            ATQ=          quant=§       RANK:
+***  fury gauntlet        ATQ=           quant=§       RANK:                           
+***  hercules's fist       ATQ=           quant=1       RANK:                                      
+Element=nature                       nº max:3
+***  serpent fist           ATQ=           quant=§       RANK:         
+***  spike gloves          ATQ=           quant=§§     RANK:        
+***  lion gauntlet        ATQ=           quant=1        RANK:
+Element=earth                         nº max:2
+***  sand glooves         ATQ=           quant=§       RANK:                                    
+***  golem gauntlet     ATQ=           quant=§       RANK:
+Element=wind                          nº max:2
+***  eagle's claw          ATQ=           quant=§§    RANK:                                  
+***  sonic gauntlet       ATQ=           quant=§      RANK:
+Element=thunder                     nº max:2
+***  eletric fist             ATQ=           quant=§§     RANK:
+***  zeus gauntlet        ATQ=           quant=1       RANK:

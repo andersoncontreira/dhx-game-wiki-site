@@ -1,0 +1,207 @@
+------------------------------------------       heart of souls    present of cathacresys   ''HP/DEF''
+HEAD:                                           nº max:20       """E-mail"""    Chefões deixam relics 'die'
+------------------------------------------  ".> Castlevania PSP <."    !!centauros & ciclopes!!            
+  l1*leather cap              DEF:+1   DMA:+1   FÇA:=0  INT:-1   SOR:=-1  QUA:§§   RANK:D/
+  l2*bandage                  DEF:=0   DMA:+1   FÇA:=0  INT:+1   SOR:+1   QUA:§§   RANK:D/
+  l3*pirate's hat             DEF:+1   DMA:+2   FÇA:+1  INT:-2    SOR:+2   QUA:§§   RANK:C
+  l4*crown                      DEF:+2   DMA:+3   FÇA:+1  INT:+1   SOR:+1   QUA:§     RANK:C
+m1*hood mystic            DEF:+1   DMA:+2   FÇA:-1    INT:+1  SOR:+1   QUA:§§   RANK:D
+m2*duend's mask         DEF:+1   DMA:+2   FÇA:-2    INT:+2   SOR:+3   QUA:§    RANK:C
+m3*circlet                     DEF:+1   DMA:+3   FÇA:-1    INT:+3   SOR:+2   QUA:§§  RANK:C
+m4*arcana mask          DEF:+1   DMA:+4   FÇA:+2   INT:+1   SOR:-3    QUA:§    RANK:B
+m5*mystic circlet         DEF:+2   DMA:+5   FÇA:-1    INT:+3   SOR:+4   QUA:§    RANK:B
+m6*wizard hat              DEF:+2   DMA:+6   FÇA:-2    INT:+5   SOR:+6   QUA:§§  RANK:A
+m7*ruby circlet            DEF:+3   DMA:+7   FÇA:-2    INT:+3   SOR:+5   QUA:1    RANK:A
+m8*golden circlet         DEF:+2   DMA:+9   FÇA:-3    INT:+5   SOR:+4   QUA:1    RANK:S
+ p1*iron 'helmet'           DEF:+2   DMA:=0   FÇA:+1   INT:-1    SOR:-1    QUA:§§  RANK:D  
+ p2*helm closed             DEF:+3   DMA:+1   FÇA:+1   INT:-1    SOR:-1    QUA:§§  RANK:C
+ p3*steel helm                DEF:+4   DMA:+2   FÇA:+2   INT:-2    SOR:-1    QUA:§§  RANK:C
+ p4*genji helm               DEF:+5   DMA:+2   FÇA:+2   INT:-2    SOR:-3    QUA:§    RANK:B
+ p5*dragon helm           DEF:+6   DMA:+3   FÇA:+3   INT:-3    SOR:-4    QUA:§    RANK:A
+ p6*hermes's helm        DEF:+7   DMA:+3   FÇA:+5   INT:-4    SOR:-5    QUA:1    RANK:A
+ p7*grand helm             DEF:+9   DMA:+4   FÇA:+4   INT:-5    SOR:-4    QUA:1    RANK:S
+ p8*luxurius helm         DEF:+8   DMA:+8   FÇA:+3   INT:+3   SOR:-9    QUA:1    RANK:SX        
+------------------------------------------
+ARMOR:                                       nº max:27       p=pesado    l=leve/inicial/páia    m=magico 
+------------------------------------------
+  l1*cotton tunic               DEF:+1   DMA:+1   FÇA:=0   INT:+1   SOR:       QUA:§§  RANK:D
+  l2*leather belt cinturaoDEF:+2   DMA:=0  FÇA:+2   INT:+2   SOR:+2   QUA:§§  RANK:D
+  l3*heavy coat                  DEF:+4   DMA:+2  FÇA:+2   INT:+1   SOR:+2   QUA:§§  RANK:C
+  l4*viking coat                 DEF:+6   DMA:+4   FÇA:+3  INT:+3   SOR:+4   QUA:§    RANK:C
+  l5*fury belt                     DEF:+6   DMA:+2  FÇA:+3   INT:-5   SOR:-2    QUA:§     RANK:B
+m1*foliage armor(na)     DEF:+7   DMA:+6   FÇA:-3   INT:+2   SOR:+5   QUA:§    RANK:C
+m2*air plate(wi)              DEF:+8   DMA:+3   FÇA:-4   INT:+4   SOR:+4   QUA:§    RANK:C
+m3*lightning mail(th)      DEF:+6   DMA:+4  FÇA:+2   INT:+5  SOR:+3   QUA:§    RANK:C
+m4*fire mail(fi)                DEF:+8   DMA:+5  FÇA:-2    INT:+1   SOR:-3   QUA:§     RANK:B
+m5*ice mail(ic)                 DEF:+11 DMA:+7  FÇA:+1   INT:+3  SOR:-2    QUA:§    RANK:B
+m6*meteor plate(ea)        DEF:+12 DMA:+2  FÇA:+3   INT:-5    SOR:-5   QUA:§    RANK:B
+m7*solar plate(li)             DEF:+9   DMA:+5  FÇA:-5    INT:+5   SOR:-1   QUA:§    RANK:A
+m8*darkness armor(da)  DEF:+5   DMA:+3  FÇA:+7   INT:-10  SOR:-8   QUA:§    RANK:A
+m9*maximilian(ph)         DEF:+5   DMA:+1  FÇA:+6   INT:-5    SOR:-5    QUA:1    RANK:S   
+m¹º*luxurius armor(ph)  DEF:+15 DMA:+1  FÇA:+9   INT:-15  SOR:-10  QUA:1    RANK:SX
+ p1*steel plate                  DEF:+3   DMA:+1  FÇA:+1   INT:-2    SOR:=0   QUA:§§  RANK:D
+ p2*bronze cuirass           DEF:+5   DMA:+2  FÇA:+1   INT:+2  SOR:+1    QUA:§§  RANK:D
+ p3*scale cuirass              DEF:+7  DMA:+5   FÇA:+2   INT:-2   SOR:-2     QUA:§    RANK:C
+ p4*silver plate                 DEF:+8  DMA:+3   FÇA:+2   INT:=0  SOR:+2    QUA:§    RANK:C
+ p5*samurai armor          DEF:+14 DMA:+4  FÇA:+2   INT:+4   SOR:+3   QUA:§    RANK:B
+ p6*gold armor                DEF:+12 DMA:+5  FÇA:+4   INT:-2    SOR:+3   QUA:§    RANK:B
+ p7*bones mail                 DEF:+9   DMA:+1  FÇA:+5   INT:-7    SOR:-5    QUA:§    RANK:B
+ p8*diamond plate           DEF:+16 DMA:+7  FÇA:+5   INT:-4    SOR:-1    QUA:1    RANK:A
+ p9*mythzor armor          DEF:+17 DMA:+8  FÇA:-2    INT:+3  SOR:-2    QUA:1    RANK:A
+ p¹º*platinum armor        DEF:+16 DMA:+8  FÇA:+3   INT:-4   SOR:-2    QUA:1    RANK:A
+ p¹¹*gladius armor           DEF:+20 DMA:+3  FÇA:+5   INT:-5   SOR:-3    QUA:1    RANK:S
+ p¹²*grand armor             DEF:+22 DMA:+6  FÇA:+6   INT:-10 SOR:-5    QUA:1    RANK:S  
+------------------------------------------
+CLOAKS:                                      nº max:20    
+------------------------------------------
+  l1*cotton cloak               DEF:=0   DMA:+2   FÇA:-1    INT:+1   SOR:+1  QUA:§§  RANK:D
+  l2*leather cape               DEF:+1   DMA:+3   FÇA:-1    INT:+2   SOR:+1  QUA:§§  RANK:D
+  l3*medieval cloak           DEF:+2   DMA:+4   FÇA:+1   INT:+1   SOR:+1  QUA:§    RANK:C
+  l4*elf cape                       DEF:+2    DMA:+5   FÇA:-2   INT:+3   SOR:+3  QUA:§    RANK:C
+m1*feather cloak(wi)       DEF:+1    DMA:+6   FÇA:-2   INT:+7   SOR:+6  QUA:§    RANK:C
+m2*camuflage cape(na)   DEF:+3    DMA:+9   FÇA:-1   INT:+2   SOR:+6  QUA:§    RANK:B
+m3*mirror cape(th)         DEF:+1    DMA:+6   FÇA:+2  INT:+9   SOR:+3  QUA:§    RANK:A
+m4*impermeable cape(ic)DEF:+2   DMA:+8   FÇA:-3   INT:+6   SOR:+4  QUA:§    RANK:C
+m5*anti-flame cape(fi)     DEF:+4   DMA:+10  FÇA:-3   INT:+1   SOR:+2  QUA:§    RANK:B
+m6*egypt cloak(ea)          DEF:+4   DMA:+7    FÇA:+1  INT:+3   SOR:+5  QUA:§    RANK:C
+m7*gods cloak(li)             DEF:+3   DMA:+10  FÇA:-4   INT:+8   SOR:+5  QUA:1    RANK:B
+m8*vampire's cape(da)    DEF:+3   DMA:+9   FÇA:+2  INT:-5    SOR:-5    QUA:1    RANK:A
+m9*luxurius cloak(ph)     DEF:+3   DMA:+15 FÇA:-9   INT:+5   SOR:+5   QUA:1    RANK:SX
+ p1*blood cape                  DEF:-2    DMA:+8   FÇA:-3   INT:+3   SOR:+3   QUA:§§  RANK:C
+ p2*shadow cloak              DEF:+2  DMA:+7    FÇA:-4   INT:+7   SOR:+5   QUA:§    RANK:C
+ p3*crystal cape                DEF:+3  DMA:+9    FÇA:-3   INT:+8   SOR:+4   QUA:1    RANK:B 
+ p4*mystic cloak               DEF:+5   DMA:+11 FÇA:-3   INT:+6   SOR:+6   QUA:§    RANK:B
+ p5*wise cape                    DEF:+5   DMA:+15 FÇA:-5   INT:+9   SOR:-5    QUA:§    RANK:A
+ p6*demmector cloak       DEF:+6   DMA:+18 FÇA:+2  INT:+9   SOR:+7   QUA:1    RANK:S   
+ p7*royal cloak                 DEF:+6   DMA:+20 FÇA:-2   INT:+6   SOR:+6   QUA:§    RANK:S
+------------------------------------------
+ACESSORIES:                              nº max:25
+------------------------------------------
+   *luxurius ring              DEF:+6  DMA:+6   FÇA:+6   INT:+6   SOR:+6    QUA:1  RANK:
+   *four-leaf clover          DEF:       DMA:       FÇA:       INT:        SOR:+15 QUA:1  RANK:
+   *mystic pendant           DEF:      DMA:+2   FÇA:       INT:+4    SOR:       QUA:    RANK:
+   *gauntlet                       DEF:      DMA:       FÇA:+9   INT:        SOR:-2    QUA:    RANK:
+   *experience necklace  DEF:       DMA:       FÇA:       INT:+4    SOR:-4    QUA:1  RANK:
+   *ring of wise                 DEF:+1  DMA:+1   FÇA:+1   INT:+8    SOR:+1   QUA:    RANK:
+   *celestial ring               DEF:      DMA:+     FÇA:       INT:         SOR:       QUA:    RANK:
+   *necklace seven-gods   DEF:+4  DMA:       FÇA:+5   INT:         SOR:       QUA:    RANK:
+   *key of life                    DEF:+7   DMA:+7  FÇA:        INT:         SOR:       QUA:1  RANK:
+   *ring of ares                 DEF:-5    DMA:-5   FÇA:+9    INT:-10   SOR:-10  QUA:1  RANK:
+   *taça de calypso           DEF:       DMA:+6  FÇA:        INT:+6     SOR:+6  QUA:1  RANK:
+   *golden broche             DEF:+2  DMA:+1   FÇA:+1   INT:+2     SOR:       QUA:   RANK:
+   *silver necklace            DEF:+1  DMA:+4   FÇA:+1   INT:         SOR:       QUA:    RANK:
+   *bracelet demmector   DEF:      DMA:        FÇA:+5   INT:+2    SOR:-10  QUA:2  RANK:
+   *skull bracelet              DEF:-4   DMA:-5    FÇA:+3    INT:        SOR:       QUA:    RANK:
+   *heart pendant             DEF:       DMA:       FÇA:        INT:+2    SOR:+2   QUA:   RANK:
+   *master ring                 DEF:+     DMA:       FÇA:        INT:        SOR:       QUA:1  RANK:
+   *star ring                      DEF:       DMA:       FÇA:        INT:+7    SOR:       QUA:2  RANK:
+   *sun stone                     DEF:       DMA:+5   FÇA:        INT:+5    SOR:+2   QUA:1  RANK:
+   *moon stone                 DEF:+4   DMA:        FÇA:+8   INT:+5    SOR:+2   QUA:1  RANK:
+   *vampire fangs            DEF:       DMA:        FÇA:        INT:         SOR:       QUA:2  RANK:
+   *money ring                ganha dinheiro quando recebe dano                          QUA:1  RANK:
+   *                                   dobra a experiencia adquirida                                    QUA:1  RANK:
+   *         DEF:       DMA:        FÇA:        INT:         SOR:   QUA:  RANK:
+   *         DEF:       DMA:        FÇA:        INT:         SOR:   QUA:  RANK:
+
+------------------------------------------
+MEDICINE:                                 nº max:20
+------------------------------------------
+   *potion                     HP:+50    MP:            RES:                OUTROS:      QUA:§§   RANK:D
+   *high potion            HP:+150   MP:            RES:                OUTROS:      QUA:§§   RANK:B
+   *x potion                 HP:+400   MP:            RES:                 OUTROS:      QUA:§     RANK:A
+   *adrenaline             HP:+100   MP:+100    RES:                OUTROS:      QUA:§§   RANK:B
+   *ether                      HP:           MP:+40      RES:                OUTROS:      QUA:§§    RANK:C
+   *high ether              HP:           MP:+120    RES:                OUTROS:      QUA:§     RANK:A
+   *elixir                      HP:+full   MP:+full    RES:                OUTROS:      QUA:3     RANK:S
+   *dark resistance     HP:           MP:            RES:dark        OUTROS:      QUA:§§   RANK:B
+   *holy resistance      HP:           MP:            RES:light/holyOUTROS:      QUA:§§   RANK:B
+   *fire resistance        HP:           MP:            RES:fire          OUTROS:      QUA:§§   RANK:B
+   *aqua resistance      HP:           MP:            RES:water/iceOUTROS:      QUA:§§   RANK:B
+   *thunder resistance HP:           MP:            RES:thunder  OUTROS:      QUA:§§   RANK:B
+   *earth resistance     HP:           MP:            RES:earth       OUTROS:      QUA:§§   RANK:B
+   *wind resistance      HP:           MP:            RES:wind        OUTROS:      QUA:§§   RANK:B
+   *nature resistance   HP:           MP:            RES:nature     OUTROS:      QUA:§§   RANK:B
+   *shield capsule        HP:           MP:            RES:                 OUTROS:      QUA:§§   RANK:A
+   *luck capsule          HP:           MP:            RES:                 OUTROS:      QUA:§§   RANK:A
+   *wise capsule          HP:           MP:            RES:                 OUTROS:      QUA:§§   RANK:A
+   *mystic capsule       HP:           MP:            RES:                OUTROS:      QUA:§§   RANK:A
+   *attack capsule       HP:           MP:            RES:                 OUTROS:      QUA:§§   RANK:S
+------------------------------------------
+FOODS:                          nº max:20         p=pequeno    m=medio     g=grande
+------------------------------------------
+ p1*mushroom            HP:+12            QUA:§§          RANK:D
+ p2*orange                  HP:+15            QUA:§§          RANK:D
+ p3*apple                     HP:+18            QUA:§§          RANK:D
+ p4*tea green              HP:+25            QUA:§§          RANK:C
+ p5*pineapple             HP:+35            QUA:§§          RANK:C
+m1*omelette               HP:+50            QUA:§§          RANK:C
+m2*rice with bean     HP:+55            QUA:§§          RANK:C
+m3*spaghetti              HP:+70            QUA:§§          RANK:B
+m4*frankfurter          HP:+75            QUA:§§          RANK:B
+m5*roast beef             HP:+90            QUA:§§          RANK:B
+ g1*cheese                   HP:+115          QUA:§§          RANK:A
+ g2*lunch                    HP:+130          QUA:§§          RANK:A
+ g3*turkey                  HP:+180          QUA:§§          RANK:A
+ g4*sirloin                   HP:+230          QUA:§§          RANK:S
+ g5*roast lamb            HP:+300          QUA:§§          RANK:S
+eggs
+milk
+soap
+bread 
+banana
+------------------------------------------ 
+LOOTS:                          nº max:15          §§=map/enemy
+------------------------------------------                                            CORES:
+   *marble              R$:                     QUA:§§       RANK:        cor de creme
+   *aquamarine      R$:                     QUA:§§       RANK:        azul cl.
+   *amethyst           R$:                     QUA:§§       RANK:        laranja
+   *jade                   R$:                     QUA:§§       RANK:        vende esc.
+   *pearl                 R$:                     QUA:§§       RANK:        branca
+   *turquoise          R$:                     QUA:§         RANK:        roxo cl.
+   *esmerald           R$:                     QUA:§         RANK:        verde cl.
+   *sapphire           R$:                     QUA:§         RANK:         azul esc.
+   *ruby                  R$:                     QUA:§§       RANK:         vermelho
+   *black pearl       R$:                     QUA:§         RANK:         preta
+   *gold 'rock'       R$:                     QUA:§         RANK:         dourado
+   *diamond           R$:                     QUA:5         RANK:         brilhante
+   *cristal
+   *ivory - marfin
+   *silver 
+------------------------------------------ 
+OTHERS:                         nº max:§§         reliquias= habilidade / movimento / especial 
+------------------------------------------ 
+   *city's map
+   *castle's map
+   *coast's map
+   *forest's map
+   *tower's map
+   *mountain's map
+   *desert's map
+   *cemetery's map
+   *temples's map
+   *dungeon's map                            M=movimento      S=special           H=habilidade
+                                                      
+   *relic of sky (long glide=Al)                *Zaramir 1
+   *relic of flora (dash)                             *Demmector 1
+   *relic of sea (respirar under water)    *Calypso 1
+   *relic of earth (rocks break)                *Zamadir 1
+
+   *relic of sacrament (super-trip=bo)    *Mythzor 1     'rasteira'      
+   *relic of pain (movement "...")             *Gladius 1   andar cima d'aqua       
+   *relic of life (movement "...")               *Legion             mortal basico
+   *relic of regret (super-jump=an)         *Deserts 1 'boss opcional' 
+
+   *relic of power (corte gig.=S,bo)     *Desert 2
+   *relic of courage (hellfire=S,al)      *City 2
+   *relic of true (tiger-fatality=S,an)       *Mountains 2            
+   *relic of wisdom (circle-whip=S,fr)    *Luxurius 1
+
+   *blue fragment key (soul)                     *Calypso 2
+   *red fragment key                                 *Zaradir 2
+   *green fragment key                             *Demmector 2
+   *yellow fragment key                            *Zaramir 2
+   *white fragment key                              *Mythzor 2
+
+   *heart of souls                                       *Cathacresys 2
+   *medalion key                                       *Gladius 2
+       

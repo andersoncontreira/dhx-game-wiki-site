@@ -1,0 +1,22 @@
+{
+  "type": {
+    "common": "common",
+    "magical": "magical",
+    "physical": "physical"
+  },
+  "ranks": {
+    "S": "rare item",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": "common item"
+  },
+  "attributes": {
+    "DEF": "defense",
+    "DMA": "magical defense",
+    "STR": "strength",
+    "INT": "intelligence",
+    "LCK": "lucky"
+  }
+
+}

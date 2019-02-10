@@ -1,0 +1,136 @@
+------------------------------------------             *=nome/rank    **=desenho    ***=info/ATQ    ****=preço/local    *****=frames    ******=audio   
+SWORDS COMMONS:           nº max:20                                                         jogar todos os itens p/ o canto esquerdo do desenho         
+------------------------------------------                               "audio p/ cada tamanho de arma e os efeitos elementares vão depois"
+Element=physical damage     nº max:8           
+****sabre                    ATQ=     RANK: D=01     LOC: (L1) / in-al  ok            PRÇ: 100   INFO: É a espada preferida do Alucard por ser muito leve e versátil. 
+***  ninja sword         ATQ=     RANK: D=03     LOC: (L1)                              PRÇ:          INFO: Espada muito leve e afiada, boa para ataques rápidos e precisos.
+***  grael sword         ATQ=     RANK: C=05     LOC: (L3)                              PRÇ:          INFO: Espada com uma lâmina curva, muito ultilizada pelos muçulmanos.         
+***  kings' sword       ATQ=     RANK: B=07     LOC: (L4)                               PRÇ:          INFO: Dizem que ela foi usada pelo rei Carlos Magno na idade média.      
+***  morsel sword      ATQ=     RANK: B=11     LOC: (L4)                               PRÇ:          INFO: Espada media muito usada por cavaleiros, pela sua lâmina serrilhada extremamente eficaz.            
+***  attila's sword      ATQ=     RANK: A=13     LOC: cenário                         PRÇ:          INFO: Espada que pertenceu ao famoso guerreiro attila, possui um ataque magnífico.
+***  anbu sword         ATQ=     RANK: A=15     LOC: (L5)                               PRÇ:          INFO: Feita de um metal muito raro, só os ninja de elite podem manusea-la com perfeição.
+***  hercules's sword ATQ=     RANK: S=19     LOC: + pro final                    PRÇ:          INFO: O próprio Hércules usou essa espada uma vez para realizar os doze trabalhos.
+Element=fire                          nº max:2
+***  fire brand            ATQ=      RANK: B=10     LOC: (L4)                               PRÇ:          INFO: Espada possuidora do poder do fogo, emite chamas de sua lâmina afiada.
+***  vulcano               ATQ=      RANK: A=16     LOC: nº 'mago do fogo'       PRÇ:          INFO: Espada forjada da lava do vulcão étna, capaz de cremar suas vítimas com sua lâmina retalhadora.   
+Element=ice/water                nº max:3
+***  frost sword         ATQ=      RANK: C=04     LOC: (L3)                               PRÇ:          INFO: Lâmina que emite um frio intenso capaz de congelar quase tudo em que toca.
+***  vapor blade        ATQ=      RANK: B=09     LOC: cenário 'encosta'         PRÇ:          INFO: Espada que emana uma cortina de vapor criando uma névoa envolta dos ataques.
+***  maelstron           ATQ=      RANK: S=20      LOC: calypso 'p2'                  PRÇ:          INFO: Espada usada pela deusa das águas Calypso para invocar marremotos gigantes.         
+Element=thunder                  nº max:2
+***  lightning brand  ATQ=     RANK: C=06     LOC: (L4)                                PRÇ:          INFO: Espada criada a partir de relâmpagos, cujo uma parte do poder ficou contida na sua lâmina.   
+**    thunder blade     ATQ=     RANK: A=14     LOC: nº 'mago raio'               PRÇ:          INFO: Espada que foi energizada pelo mago mor dos raios Kanon, ampliando seus poderes elétricos ao máximo.
+Element=wind                       nº max:2
+***  twister brand       ATQ=    RANK: B=12     LOC: (L5)                                 PRÇ:          INFO: Lâmina em que no seu corte, pode liberar rajadas de vento em seus adversários.
+***  aeres' valor          ATQ=    RANK: A=17     LOC: nº 'aeres'                        PRÇ:          INFO: Espada de posse do Lord Aeres, servo fiel do deus Zaramir, contendo um imenso poder de vento.     
+Element=light/holy               nº max:3
+***  light blade           ATQ=     RANK: D=02     LOC: (L1)                                 PRÇ:          INFO: Espada que possui uma lâmina que emite um ataque baseado em poderes de luz.
+***  spirit sword         ATQ=     RANK: B=08     LOC: nº '?' / cenário               PRÇ:          INFO: Lâmina rara que está tomada energia espiritual, própria para ataques sagrados.
+***  gods' punish        ATQ=     RANK: S=18     LOC: p.s. 'p2' final                   PRÇ:          INFO: Espada criada e enviada pelos deuses para punir os humanos que contrariam suas vontades.      
+------------------------------------------
+LONG ARMS:                            nº max:15                                             
+------------------------------------------
+Element=physical damage   nº max:6                                                    
+***  katana                 ATQ=     RANK: D=01     LOC: (L3)                                   PRÇ:       INFO: Espada vinda do extremo oriente, possui uma lâmina muito longa e afiada.  
+***  wakizahis            ATQ=     RANK: B=03     LOC: (L4)                                    PRÇ:       INFO: Espada que contém uma lâmina muito fina e leve, própria para ataques rápidos.
+***  masamune          ATQ=     RANK: A=05     LOC:                                             PRÇ:       INFO: Legendária katana poderosa, cujo seu corte é muito profundo e letal.        
+***  long lance           ATQ=     RANK: C=10     LOC: (L3)                                    PRÇ:       INFO: Uma lança muito comum, usada pelos guerreiros desde à antiguidade.
+***  trident                 ATQ=     RANK: B=12     LOC: (L5)                                    PRÇ:       INFO: Uma lança com três pontas, parecida com a que o deus Possêidon possuia.
+***  halberd                ATQ=     RANK: A=13     LOC:                                             PRÇ:       INFO: Lança especial com uma lâmina presa na sua ponta, excelente para ataques à distância. 
+Element=dark                       nº max:4
+***  oni katana           ATQ=     RANK: D=02     LOC: (L2)                                   PRÇ:       INFO: Uma espada Katana que emite uma energia obscura e maligna.
+***  azagael's sword  ATQ=     RANK: B=04     LOC: (L5)                                   PRÇ:       INFO: Lâmina ondulada forjada pelo poderoso demônio Azagael, contaminada de magia negra.  
+***  calling sword      ATQ=      RANK: A=07     LOC:                                            PRÇ:       INFO: Espada longa amaldiçoada com almas penadas, dizem que sua lâmina grita por sangue.  
+***  chaos spear         ATQ=      RANK: S=15     LOC:                                            PRÇ:       INFO: A lança do caos, usada pelos anjos da morte no ultimo apocalipse.
+Element=earth                      nº max:2
+***  sand brand           ATQ=     RANK: A=06     LOC:                                             PRÇ:       INFO: Espada que contém a essência da areia, originária do deserto de Gobi.      
+**  falchion lance     ATQ=     RANK: B=11     LOC: (L4)                                    PRÇ:       INFO: Lança usada nas principais cruzadas, cujo mago mor Barok inseriu poderes da terra nela.              
+Element=wind                       nº max:3
+***  musame blade    ATQ=     RANK: S=08     LOC:                                              PRÇ:       INFO: Com uma lâmina extremamente longa, sua história até hoje é um mistério.
+***  arcana's spear   ATQ=     RANK: C=09     LOC: (L2) nº 'arcana'                 PRÇ:       INFO: Uma nagatina com uma lâmina que emite rajadas de vento em seus adversários.   
+***  crizaor spear      ATQ=     RANK: A=14     LOC:                                              PRÇ:       INFO: Lança dourada que pertenceu à um lendário guerreiro da mitologia nórdica Siegfried.	
+------------------------------------------
+GREAT SWORDS:                            nº max:10                                'a.s. = area secreta'
+------------------------------------------
+Element=physical damage    nº max:5
+***  defender               ATQ=       RANK: D=01     LOC: (L2) / in-bo                         PRÇ: 200   INFO: Espada grande dada ao boris pelo próprio imperador germânico, capaz de dilacerar seus oponentes.
+***  excalibur              ATQ=       RANK: C=03     LOC: (L3)                                      PRÇ:          INFO: Essa espada pertenceu ao rei Arthur, ela foi muito conhecida em toda a idade média.
+***  dragon killer       ATQ=       RANK: B=05     LOC: (L5)                                       PRÇ:          INFO: Essa lâmina gigante já matou mais de mil dragões, ninguém sabe dizer ao certo como ela surgiu.    
+***  celestial                ATQ=       RANK: A=07     LOC: nº '?'                                    PRÇ:          INFO: Essa espada foi usada muita bravamente pelo cavaleiro Xion no ultimo apocalipse.         
+***  master blade        ATQ=       RANK: S=09     LOC: a.s. 'p2'                                PRÇ: 2       INFO: A lendária lamina mestra, almejada por milhares de pessoas, mas nunca foi encontrada.        
+Element=dark                         nº max:3
+***  obscure sword      ATQ=       RANK: C=04     LOC: (L4)                                     PRÇ:         INFO: Espada de Mythzor cuja a energia dela afeta a alma do usuário de forma negativa.    
+***  apocalipse             ATQ=       RANK: A=08     LOC: nº '?' / cenério                   PRÇ:         INFO: Espada usada por legiões de demônios na guerra dos céus, cuja lâmina matou muitos anjos.     
+***  luxurius's sword   ATQ=        RANK: S=10     LOC: boss f./extras                     PRÇ: 2      INFO: A suprema espada de trevas de Luxurius, contendo uma força extraordinária, cuja lâmina é a unica que o afeta.      
+Element=earth                        nº max:2
+***  lizard's sword      ATQ=        RANK: D=02     LOC: desert-1                              PRÇ:         INFO:  Espada de posse do Giant Lizard, contém um grande poder de terra.   
+***  cataclism              ATQ=        RANK: B=06     LOC:                                             PRÇ:         INFO: Espada mostruosa capaz de criar terremotos e destruir rochas com um só movimento.
+------------------------------------------
+WHIPS:                                                nº max:15                                 
+------------------------------------------
+Element=physical damage    nº max:5
+***  hunter's clan       ATQ=       RANK: D=01     LOC: (L1) / in-fr                                PRÇ: 80    INFO: Chicote símbolo do clãn Van helsing, todos os membros possuem um desse.
+***  steel chain           ATQ=       RANK: C=03     LOC: (L3)                                           PRÇ:         INFO: Corrente não muito longa feita de aço, usada por gladiadores sanguinários.
+***  black whip          ATQ=       RANK: B=07     LOC:                                                    PRÇ:         INFO: Um chicote escuro como a noite, feito de couro de pantera negra.
+***  long chain           ATQ=       RANK: A=10     LOC: (L5)                                           PRÇ:         INFO: Uma corrente com uma bola de ferro pressa na ponta propiciando um longo alcance.
+***  master whip        ATQ=       RANK: S=14     LOC:                                                    PRÇ:         INFO: Pertenceu a um mestre no controle do chicote, cujo seus ataques se asemelham-se a de uma chibata.
+Element=light/holy                nº max:2
+***  light whip           ATQ=        RANK: B=08     LOC: (L4)                                           PRÇ:         INFO: Chicote curto que libera um brilho luminoso muito intenso.          
+***  vampire killer    ATQ=        RANK: S=15     LOC:                                                    PRÇ:          INFO: Chicote pertencente à um misterioso clan de caçadores de vampiros.                 
+Element=nature                     nº max:2
+***  poison whip        ATQ=        RANK: B=06     LOC: (L4)                                           PRÇ:         INFO: Chicote coberto de um veneno muito poderodo tirado de uma naja egípcia.
+***  thorns whip        ATQ=        RANK: A=12     LOC:                                                    PRÇ:         INFO: Chicote formado por diversos tipos de espinhos muito ponte-agúdos.      
+Element=fire                          nº max:2
+***  flame whip          ATQ=        RANK:C=04      LOC: (L3)                                           PRÇ:         INFO: Chicote em chamas que encendeiam suas vítimas ao tocá-lo.
+***  inferno whip       ATQ=        RANK: A=11     LOC:                                                    PRÇ:         INFO: Chicote que emana um fogo tão intenso como o do inferno.    
+Element=ice/water                 nº max:2
+***  fog whip               ATQ=       RANK: D=02     LOC: (L1)                                           PRÇ:         INFO: Chicote que forma nuvens de neblina em seus movimentos. 
+***  icy chain              ATQ=       RANK: A=09     LOC:                                                     PRÇ:         INFO: Corrente que adquiriu seus poderes congelantes pelas mãos do mago mor das águas Aquim.
+Element=thunder                   nº max:2
+***  eletric chain         ATQ=       RANK: C=05     LOC:                                                    PRÇ:         INFO: Corrente com poderes elétricos, que contem uma onda de choque muito poderosa. 
+***  thunder whip       ATQ=       RANK: A=13     LOC: (L5)                                            PRÇ:         INFO: Chicote que descarrega raios fuminantes como de um relâmpago no seu ataque.
+------------------------------------------ 
+SHORT ARMS:                           nº max:16                                
+------------------------------------------
+Element=physical damage      nº max:7
+***  barbarian dagger ATQ=       RANK: D=01     LOC: (L1)                                               PRÇ:       INFO: Faca comum usadas pelos bárbaros para matar inimigos à distância.
+***  combat knife         ATQ=       RANK: C=02     LOC: (L3)                                               PRÇ:       INFO: faca de guerra muito ultilizada em combates corpo à corpo.        
+***  danjuro dagger     ATQ=       RANK: A=06     LOC:                                                        PRÇ:       INFO: Uma adaga muito poderosa feita com duas lâminas serrilhadas postas lado à lado.         
+***  xian's dagger        ATQ=        RANK: S=09     LOC:                                                         PRÇ:       INFO: Lendária agada em forma de dragão usada em rituais misteriosos em um templo na China.     
+***  viking axe              ATQ=        RANK: C=10     LOC: (L2)                                               PRÇ:       INFO: Machado usado pelos Vikings para estraçalhar quaquer um que atravessasse o caminho deles.
+***  dwarven mace      ATQ=        RANK: B=12     LOC: (L4)                                               PRÇ:       INFO: Maça feita de ferro com estacas afiadas muito ultilizada em toda a idade média nas batalhas.
+***  battle axe              ATQ=        RANK: A=14      LOC:                                                       PRÇ:       INFO: Sem dúvida, o machado mais poderoso já criado pelo homem para usar em uma batalha.    
+Element=ice/water                  nº max:3
+***  polares                   ATQ=        RANK: B=04     LOC:                                                        PRÇ:       INFO: Adaga esculpida no frio congelante na região do extremo ártico do planeta.
+***  aurora mace         ATQ=        RANK: A=14     LOC: (L5)                                                PRÇ:       INFO: Maça congelada formada com pontas de cristais de gelo muito afiadas.         
+***  freeze hammer     ATQ=        RANK: B=11     LOC:                                                         PRÇ:       INFO: Machado surgido das geleiras mais antigas do planeta onde o gelo é mais duro que o aço.   
+Element=fire                            nº max:3
+***  leones's dagger     ATQ=        RANK: A=07     LOC: (L5)                                                PRÇ:       INFO: Ela pertenceu a um guerreiro que foi queimado vivo, agora sua alma em chamas está presa dentro dela.
+***  apollo mace           ATQ=        RANK: B=13    LOC:                                                          PRÇ:       INFO: Toda a essência do poder de Apollo, o deus do sol na mitologia Grega está contida nessa maça. 
+***  flame axe               ATQ=        RANK: S=16     LOC:                                                          PRÇ:       INFO: Machado que emana chamas extremamente poderosas capaz de cremar suas vítimas em segundos.  
+Element=light/holy                  nº max:3
+***  catalua                   ATQ=        RANK: C=03     LOC: (L3)                                                PRÇ:       INFO: Adaga espanhola benzida pelos bispos, foi fundamental na guerra das cruzadas contra os muçulmanos.                    
+***  athena's dagger    ATQ=        RANK: A=08     LOC:                                                        PRÇ:       INFO: Dizem que na mitologia grega esse punhal foi usado para tentar assasinar Athena, a deusa da sabedoria.                   
+***  golden hammer     ATQ=        RANK: A=15    LOC:                                                         PRÇ:       INFO: Martelo sagrado todo feito de ouro maciço, nada resiste ao seu impacto.
+------------------------------------------
+GLOVES:                                             nº max:14                                 
+------------------------------------------
+Element=physical damage       nº max:5
+***  leather gloves       ATQ=         RANK: D=01     LOC: (L2) / in-an                                    PRÇ: 50   INFO: Um par de luvas de couro simples usados pelas amazonas do interior da Ásia menor.             
+***  steel gloves            ATQ=        RANK: C=03     LOC: (L3)                                                 PRÇ:         INFO: Luvas feitas de um aço muito resistênte, ótimas para socar os inimigos.      
+***  tiger's paw            ATQ=        RANK: B=06     LOC:                                                           PRÇ:         INFO: Essas luvas são capazes de reproduzir os golpes de um tigre assasino. 
+***  fury gauntlet        ATQ=         RANK: A=11     LOC: (L5) / skull master                         PRÇ:         INFO: Descaregue toda sua fúria nos adversários com essas luvas poderosas.                         
+***  hercules's fist       ATQ=         RANK: S=13     LOC:                                                            PRÇ:         INFO: Essas luvas contém o poder esmagador dos punhos de Hércules.                                       
+Element=nature                       nº max:3
+***  serpent fist            ATQ=         RANK: D=02     LOC: (L2)                                                  PRÇ:         INFO: Os golpes dessas luvas são com se fosse picadas de cobras que injetam um veneno mortal.          
+***  spike gloves          ATQ=         RANK: B=08     LOC:                                                           PRÇ:         INFO: Luvas recobertas de espinhos afiados e venenosos que penetram em seus adversários.     
+***  lion's gauntlet       ATQ=         RANK: A=12     LOC:                                                           PRÇ:         INFO: A força impetuosa do rei das selvas está contida nessas luvas especiais.
+Element=earth                         nº max:2
+***  sand glooves         ATQ=         RANK: C=05     LOC: (L4)                                                  PRÇ:         INFO: Luvas recobertas com uma areia misteriosa que se desprende junto aos ataques.                                  
+***  golen gauntlet      ATQ=         RANK: A=10     LOC:                                                           PRÇ:         INFO: Toda a força bruta e o poder da terra que um golem possui está contido nessas luvas.
+Element=wind                          nº max:2
+***  eagle's claw          ATQ=         RANK: C=04     LOC: (L3)                                                  PRÇ:         INFO: Essas luvas foram feitas com garras de águia e cobertas com uma essência do ar.                                 
+***  sonic gauntlet       ATQ=         RANK: B=09     LOC:                                                           PRÇ:         INFO: Luvas capazes de desferir golpes super sônicos de vento em alta velocidade.
+Element=thunder                     nº max:2
+***  eletric fist             ATQ=         RANK: B=07      LOC: (L4)                                                  PRÇ:         INFO: Punho que baseia seus golpes em ataques elétricos potentes.
+***  zeus's gauntlet     ATQ=         RANK: S=14      LOC:                                                           PRÇ:         INFO: Parte do poder de criar raios de Zeus está contido nessas luvas.

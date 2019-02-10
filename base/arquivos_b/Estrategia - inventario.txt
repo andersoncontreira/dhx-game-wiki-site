@@ -1,0 +1,99 @@
+------------------------------------------
+HEAD:                                           nº max:20 
+------------------------------------------
+   *leather cap                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:§    
+   *helm closed                DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *hood mistic                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:
+   *bandage                      DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *aureula                       DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *iron helm                    DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *pirates hat                  DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:§ 
+   *wizard hat                  DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *witch hat                    DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *duend's mask             DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *aureula dourada        DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:1 
+   *luxurius helm             DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:1 
+   *genji helm                   DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:§ 
+   *dragon helm               DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:1 
+   *hermes's helm            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:1    
+   *aureula ruby              DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:
+   *aureula mystic           DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *arcana mask               DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *grand helm                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *crown                          DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:         
+------------------------------------------
+ARMOR:                                       nº max:27  
+------------------------------------------
+   *luxurius armor          DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:
+   *grand armor              DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *brilliant mail(li)        DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *fire mail(fi)                DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *ice mail(ic)                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *lightning mail(th)      DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *darkness armor(da)  DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *air plate(wi)              DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *foliage armor(na)     DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *rock plate(ea)           DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *steel plate                  DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *bronze cuirass           DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *silver plate                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *gold armor                DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *diamond plate           DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *leather waist             DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *maximilian                DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *samurai armor          DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *cotton tunic               DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *viking coat                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *heavy coat                  DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *scale cuirass               DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *platinum armor         DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *bones mail                  DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *fury waist                   DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:
+   *         DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *         DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:  
+------------------------------------------
+CLOAKS:                                      nº max:18
+------------------------------------------
+   *luxurius cloak            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:1 
+   *elf cape                       DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:
+   *leather cape               DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT:  
+   *cloth cloak                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *mystic cloak               DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *gods cloak(li)             DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *royal cloak                 DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *vampire's cape(da)    DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *blood cape                  DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *camuflage cape(na)   DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *egypt cloak(ea)          DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *'anti-chamas' cape(fi)DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *impermeable cape(ic)DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *feather cloak(wi)       DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *mirror cape(th)         DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *         DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *         DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *         DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+------------------------------------------
+ACESSORIES:                              nº max:20
+------------------------------------------
+   *luxurius ring              DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *four-leaf clover          DEF:       DMA:       FÇA:       MAG:       INT:       SOR:+     QUANT: 
+   *mystic pendant           DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *gauntlet                       DEF:       DMA:       FÇA:+    MAG:       INT:       SOR:       QUANT: 
+   *experience necklace   DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *ring of wise                  DEF:       DMA:       FÇA:       MAG:       INT:+    SOR:       QUANT: 
+   *celestial ring             DEF:       DMA:+       FÇA:       MAG:+       INT:       SOR:       QUANT: 
+   *necklace seven-gods            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *key of life            DEF:+       DMA:+      FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *adrenaline            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *taça de calypso            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *golden broche            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *silver necklace            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *bracelet demmector           DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *skull bracelet           DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *bracelet            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+   *            DEF:       DMA:       FÇA:       MAG:       INT:       SOR:       QUANT: 
+
+hearth of souls

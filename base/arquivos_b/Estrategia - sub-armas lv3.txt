@@ -1,0 +1,100 @@
+------------------------------------------     *=nome/elemento/rank   **=desenho  ***=INFO/LOC   ****=ATQ/MP    *****=frames      ******=audio       *******=programar
+ALUCARD:                                   nº max:12                              {usar o 'menos' p/ ataques fracos}   
+------------------------------------------         SHIELDS / SPIRITS
+****  standard                Elemento: none          MP:15   ATQ:#        RANK:D     LOC: começa                            INFO: Escudo básico, o protege contra ataques fracos e médios e ainda gasta pouco MP. (MP 15) 
+****  gods' shield           Elemento: none          MP:20   ATQ:#        RANK:C     LOC: loja (L3)(R$=)                 INFO: Escudo que absorve ataques sagrados, mas é vulnerável à danos físicos. Recupera HP quando usado. (MP 20)
+****  guardian shield     Elemento: none/holy MP:25   ATQ:20      RANK:B     LOC:                                           INFO: Escudo poderoso que o protege contra ataques fracos e médios e ainda rebate uma magia sagrada. (MP 25)
+****  skull shield            Elemento: dark           MP:20   ATQ:01      RANK:A     LOC:                                           INFO: Escudo que absorve ataques de trevas e ainda causa dano aos inimigos quando encostado. (MP 20)
+****  luxurius's shield    Elemento: none          MP:60   ATQ:#         RANK:S     LOC: loja (LS)(R$=)                INFO: Esse escudo pertenceu ao lorde Luxurius, possui defesa perfeita, mas o consumo de MP é muito alto. (MP 60)
+****  defender orb         Elemento: light/holy  MP:15   ATQ:01       RANK:D    LOC: loja (L1)(R$=)                INFO: Invoca três espiritos sagrados que ficam ao seu redor o protegendo dos inimigos. (MP 15)
+****  mist orb                 Elemento: none          MP:50   ATQ:#         RANK:B     LOC:                                           INFO: Permite se transformar em neblina por alguns instântes, o deixando imune à qualquer tipo de ataque. (MP 50)
+****  warrior orb           Elemento: p.damage  MP:20   ATQ:10       RANK:C     LOC: loja (L4)(R$=)               INFO: Invoca dois espíritos de soldados mortos em batalha que avançam sobre os inimigos. (MP 20) 
+****  knight orb             Elemento: p.damage  MP:35   ATQ:25       RANK:A     LOC:                                          INFO: Invoca uma alma de um cavaleiro de elite que avança furiozamente sobre os inimigos sem sessar. (MP 35)
+****  spectres orb          Elemento:d./h.             MP:20   ATQ:05       RANK:C     LOC: loja (L4)(R$=)               INFO: Permite invocar três almas místicas teleguiadas, podendo ser das trevas ou sagradas. (MP 20)
+****  wizard orb            Elemento: dark            MP:35   ATQ:55       RANK:A     LOC:                                          INFO: Permite invocar um mago das trevas que lança uma energia obscura sobre os inimigos. (MP 35)
+****  dawn orb              Elemento:p.d & d./h.   MP:60   ATQ:iden    RANK:S      LOC:                                         INFO: Invoca três tipos diferentes de almas ao mesmo tempo, com variações de ataques. (MP 60)
+------------------------------------------
+FREDERIC:                                  nº max:12       *=nome/elemento/rank   **=desenho  ***=INFO/LOC   ****=ATQ/MP    *****=frames   
+------------------------------------------            GUNS / POTIONS
+****garruncha            Elemento: p.damage   MP:5     ATQ:-01        RANK:D     LOC: começa                            INFO: Revólver comum feito na Inglaterra que dispara balas de chumbo. (MP 05)
+***  crossbow              Elemento: fire               MP:15   ATQ:05        RANK:C     LOC: loja (L1)(R$=)                 INFO: Arco semi-automático que lança de uma só vez três dardos em chamas. (MP 00) 
+***  mosquete              Elemento: p.damage   MP:25   ATQ:30        RANK:B     LOC:                                            INFO: Escopeta de cano simples eficaz em disparos à curtas distâncias. (MP 00)
+***  aqua shot              Elemento: water/ice    MP:00   ATQ:00        RANK:B     LOC: loja (L4)(R$=)                INFO: Carabina modificada que atira um jato forte de água à media distância. (MP 00)
+***  electric shock       Elemento: thunder      MP:00   ATQ:00        RANK:B     LOC:                                            INFO: Carabina que descarrega um choque elétrico à curta distância. (MP 00)
+***  bomb                     Elemento: p.damage   MP:00   ATQ:00        RANK:A     LOC: loja (L5)(R$=)                INFO: Arremessa uma bomba poderosa que explode em poucos segundos. (MP 00)
+***  lightning rod        Elemento: thunder      MP:00   ATQ:00        RANK:A     LOC:                                            INFO: Usa um pára-raio para atrair um relâmpago letal que atinge que estiver próximo à você. (MP 00)
+***  sacred cross          Elemento: light/holy   MP:00   ATQ:00        RANK:S     LOC:                                           INFO: Invoca os poderes sagrados da cruz criando uma espiral de luz muito poderosa. (MP 00)
+***  holy-water            Elemento: light/holy   MP:00   ATQ:00        RANK:D     LOC: loja (L1)(R$=)                INFO: Arremessa um vidro com água benzida que queima os seres das trevas ao serem atingidos. (MP 00)
+***  thunder sphere    Elemento: thunder      MP:00   ATQ:00         RANK:C     LOC: loja (L3)(R$=)               INFO: Poção que cria uma esfera de eletricidade que o protege dos inimigos. (MP 22) 
+**    freezing                 Elemento: water/ice    MP:00   ATQ:00        RANK:A     LOC:                                          INFO: Fórmula descoberta pelos alquimistas, cria estacas de gelo que congela tudo ao redor. (MP 00) 
+***  salamandra           Elemento: fire             MP:00   ATQ:00        RANK:S      LOC:                                          INFO: Pote que contém uma essência da salamandra que cria labaredas de fogo no chão. (MP 00)
+------------------------------------------
+ANITA:                                          nº max:12     *=nome/elemento/rank   **=desenho  ***=INFO/LOC   ****=ATQ/MP    *****=frames  
+------------------------------------------        AMULETS / WEAPONS TO DISTANCE
+****knife                      Elemento: p.damage   MP:04   ATQ:01        RANK:D    LOC: começa                           INFO: Lança uma faca pequena mas bem afiada. (MP 04)
+***  fire arrows            Elemento: fire              MP:00   ATQ:00        RANK:C    LOC: loja (L2)(R$=)               INFO: Usa um arco para lançar flechas em chamas à longas distâncias. (MP 00)
+***  steel rings             Elemento: p.damage   MP:00   ATQ:00        RANK:C    LOC: loja (L3)(R$=)                INFO: Lança dois anéis em seguida feitos de um aço muito leve e resistênte. (MP 00) 'ci./fr.'
+***  poison dagger       Elemento: nature        MP:08   ATQ:04        RANK:B    LOC:                                          INFO: Lança uma adaga recoberta de um veneno letal tirado de uma planta carnivora. (MP 08)
+**    flame boomerang Elemento: fire             MP:00   ATQ:00        RANK:A    LOC:                                          INFO: Arremesssa um bulmerangue em chamas que sempre retorna à quem o lançou. (MP 00) 'fr./ci.'
+**    great shuriken     Elemento: p.damage   MP:00   ATQ:00        RANK:S     LOC:                                          INFO: Arremessa uma shuriken gigante usada somente por ninjas muito hábeis. (MP 00)
+***  kick stone              Elemento: earth          MP:00   ATQ:00        RANK:C     LOC: loja (L2)(R$=)              INFO: Permite melhorar seu chute aéreo possibilitando causar até terremotos no chão. (MP 00)
+***  shoryuken             Elemento: wind           MP:00   ATQ:00        RANK:B     LOC: loja (L4)(R$=)              INFO: Usa o poder do vento para transferir um soco aéreo em forma de tornado. (MP 00) 
+***  flying                     Elemento: nature        MP:00   ATQ:00        RANK:B     LOC: loja (L5)(R$=)              INFO: Golpe que permite você aplicar uma voadora em alta velocidade à médio alcance. (MP 00)
+**    leaf dash                Elemento: nature        MP:00   ATQ:00        RANK:A    LOC:                                         INFO: Permite melhorar seu dash usando folhas afiadas à ele para torná-lo letal. (MP 00)
+**    speed kick             Elemento: wind           MP:00   ATQ:00        RANK:A     LOC:                                        INFO: Transfere multiplos chutes seguidos em alta velocidade. (MP 00)
+**    super punch          Elemento: earth          MP:00   ATQ:00        RANK:S     LOC:                                         INFO: Concentra toda a sua força em seu braço e transfere um soco mortal. (MP 00)
+------------------------------------------
+BÓRIS:                                          nº max:6     *=nome/elemento/rank   **=desenho  ***=INFO/LOC   ****=ATQ/MP    *****=frames  
+------------------------------------------            SCROLLS 
+**    super-cut scroll             Elemento: p.damage   MP:00   ATQ: 20   RANK:D    LOC: começa 'defender'           INFO: Usa sua espada em um super golpe afiado, no qual o Bóris salta e ataca com tudo no chão. (MP 00)
+***  ascension scroll            Elemento: wind           MP:00   ATQ: 30   RANK:C    LOC: loja (L3)(R$=)                  INFO: Permite ao personagem dar um super pulo e criar uma corrente de ar poderosa envolta. (MP 00)
+***  hyper-punch scroll       Elemento: earth          MP:00   ATQ: 25    RANK:B    LOC: loja (L5)(R$=)                  INFO: Golpe empregado no chão no qual levanta blocos de rochas nos dois lados. (MP 00)
+**    super-strength scroll   Elemento: none           MP:00   ATQ: 2x   RANK:B    LOC:                                               INFO: Manuscrito que dobra a força do personagem por alguns instantes. (MP 00) (12s)
+**    invencibility scroll       Elemento: none           MP:00   ATQ: #     RANK:A    LOC:                                               INFO: Ao utilizar esse pergaminho secreto, lhe deixará invensível por alguns intantes. (MP 00)  (8s)
+**    vortex scroll                 Elemento: dark           MP:00   ATQ: 15   RANK:S     LOC:                                              INFO: Usa um manuscrito antigo para criar um buraco negro à sua frente, impedindo a passagem dos inimigos. (MP 00)
+                                                                                                                                                                                                          
+
+ESPECIAIS:                    ''' IDÉIA: special normal (L1)  /  special + melhor (cima + L1) '''
+
+*Alucard:      
+                        hellfire
+
+*Frederic:      
+                       spiral slash
+
+*Anita:         tiges' rage
+                       tiger fatality
+
+*Bóris:          wind cut
+
+
+
+SUMMONS:
+
+*dragon: bocada                             (p.damage)
+                 rabada                              (p.damage)
+                 tornado batendo asas     (wind)
+                 dash longo                        (wind)
+                 bafo de gelo                     (ice)
+                 jato d'agua                      (water)
+
+*demon: tridente (fincada)            (p.damage)
+                tridente (invergadura)    (p.damage)
+                energia negra                   (dark)
+                almas penadas                 (dark)
+                varias bolas de fogo        (fire)
+                bafo de fogo                     (fire)
+                 
+*fairy:    esfera sagrada                 (holy)
+                lazers                                (light)
+                cura 'varia'                      (suporte)
+                resistências/status           (suporte)
+                descarga vertical            (thunder)
+                mini esferas eletr. (6-8)  (thunder)
+                                                             
+*golen:    porrada                            (p.damage)
+                 soco cruzado                   (p.damage)
+                 arremessar rocha           (earth)
+                 sand wave                        (sand)
+                 explosão de espinhos      (nature)
+                 aroto enven. (alastra)     (nature)

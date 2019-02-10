@@ -1,0 +1,114 @@
+-----------------------------------
+MENU:
+-----------------------------------
+-----INTERFACE:
+cursor
+confirmar
+voltar
+colunas
+equipar
+comprar/vender
+trocar personagem
+mapa
+iniciar jogo
+abandonar jogo
+game over
+
+-----------------------------------
+CENÁRIO:
+-----------------------------------
+-----EFEITOS:
+quebrar candelabros
+quebrar vasos
+quebrar rochar
+pegar itens
+pegar dinheiro
+pegar coração
+pegar 'others'
+abrir porta
+fechar porta
+save
+teletransporte
+portal
+cair na agua
+sair da agua
+andar sobre a agua
+nadar
+mergulhar...
+
+-----INTERAÇÃO:
+
+-----------------------------------
+PERSONAGENS:
+-----------------------------------
+-----MOVIMENTAÇÃO:
+
+
+-----DANOS:             ""ideia: todos os pers. ter nv. de danos, ex: freco, médio... depois eles se unem aos danos elementares""
+recuperar hp
+recuperar mp
+recuperar os dois
+encher o hp
+encher o mp
+mp insuficiente
+
+alucard - dano fraco
+alucard - dano medio
+alucard - dano forte
+alucard - dano mt forte
+
+frederic - dano fraco
+frederic - dano medio
+frederic - dano forte
+frederic - dano mt forte
+
+anita - dano fraco
+anita - dano medio
+anita - dano forte
+anita - dano mt forte
+
+bóris - dano fraco
+bóris - dano medio
+bóris - dano forte
+bóris - dano mt forte
+
+dano - golpe
+dano - corte
+dano - vento
+dano - agua /ou gelo
+dano - natureza
+dano - terra/areia
+dano - luz/sagrado
+dano - trevas
+dano - eletricidade
+dano - fogo
+
+alucard - morte
+frederic - morte
+anita - morte
+bóris - morte
+-----ATAQUES:
+
+
+-----SUB-ARMAS:
+
+
+-----ESPECIAIS:
+
+
+-----FAMILIARES:
+dragon - movimentação
+demon - movimentação
+fairy - movimentação
+golen - movimentação
+
+-----------------------------------
+INIMIGOS:
+-----------------------------------
+-----MOVIMENTAÇÃO:
+
+
+-----ATAQUES:
+
+
+-----DANOS:
