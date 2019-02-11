@@ -44,6 +44,11 @@
                     <span class="label">HP:</span>
                     <span class="value">{{current.hp}}</span>
                 </div>
+				
+				<div id="info-subordinated" class="box text13">
+					<span class="label">SUBORDINATED:</span><br/>
+                    <span class="value">{{current.subordinated}}</span>
+				</div>
 
                 <div id="info-drop-items" class="box text13">
                     <span class="label">DROP ITEMS:</span>
@@ -122,20 +127,6 @@
                             <div class="item">
                                 <figure class="item-icon">
                                     <img v-bind:src="'../data/misc/elements/icon_elemental_' + element +'.png'" v-bind:alt=" element + ' immunity'" />
-                                </figure>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <figure class="item-icon">
-                                    <img src="../data/misc/elements/icon_elemental_thunder-lightning.png" alt="">
-                                </figure>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <figure class="item-icon">
-                                    <img src="../data/misc/elements/icon_elemental_dark.png" alt="">
                                 </figure>
                             </div>
                         </li>

@@ -15,6 +15,8 @@
 
 :root {
     --color-gold: #d4b63c;
+	--color-gold-gradient-a: #e5d271;
+	--color-gold-gradient-b: #8b5706;
 }
 
 
@@ -40,6 +42,9 @@ body {
 .label {
     font-family: "Monotype";
     font-weight: bold;
+	background: -webkit-linear-gradient(var(--color-gold-gradient-a), var(--color-gold-gradient-b));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .text12 {
@@ -69,7 +74,8 @@ Structures
     margin: 6.5% auto;
     width: 640px;
     height: 470px;
-    background: url("../images/bestiary/bg.png");
+    /*background: url("../images/bestiary/bg.png");*/
+    background: url("../images/bestiary/004.bmp");
     padding: 3px;
     vertical-align: top;
 }
@@ -171,9 +177,13 @@ Structures
     margin: 25px 5px;
 }
 
+#info-subordinated {
+	margin: 50px 5px;	
+	text-transform: uppercase;
+}
 #info-drop-items {
     top: 0px;
-    left: 120px;
+    left: 140px;
     z-index: 20;
     /*border: 1px solid green;*/
 }
@@ -254,7 +264,7 @@ Structures
 }
 
 #sprite {
-    right: -80px;
+    right: -60px;
     bottom: 60px;
     /*border: 1px solid aqua;*/
     position: absolute;
@@ -322,13 +332,13 @@ Structures
     display: inline-block;
 }
 .enemy-class-s {
-    background: url("../../data/misc/misc.png") 0px 0px;
+    background: url("../../data/misc/misc.png") -55px -1px;
 }
 .enemy-class-a {
-    background: url("../../data/misc/misc.png");
+    background: url("../../data/misc/misc.png") -71px -1px;
 }
 .enemy-class-b {
-    background: url("../../data/misc/misc.png");
+    background: url("../../data/misc/misc.png") -93px -1px;
 }
 .enemy-class-c {
     background: url("../../data/misc/misc.png") -114px -1px;
@@ -343,5 +353,5 @@ Structures
 }
 
 .enemy-class-f {
-    background: url("../../data/misc/misc.png") -114px -1px;
+    background: url("../../data/misc/misc.png") -174px -1px;
 }
