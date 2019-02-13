@@ -1,0 +1,1168 @@
+[
+    {
+        "id": 1,
+        "number": "001",
+        "tag": "skull-angel",
+        "name": "Skull Angel",
+        "class": "E",
+        "experience": "1",
+        "level": 3,
+        "hp": 150,
+        "subordinated": "Zaramir",
+        "dropItems": [
+            null, null
+        ],
+        "note": "Skeleton taken by a demon who wanted to resemble an angel.",
+        "bio": "",
+        "properties": {
+            "DEF": 5,
+            "DMA": 5,
+            "STR": 10,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical"
+            ],
+            "weakness": [
+
+            ],
+            "tolerance": [
+                "holy-light"
+            ],
+            "immune": [
+                "wind"    
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "number": "002",
+        "tag": "putrid-piranha",
+        "name": "Putrid piranha",
+        "class": "E",
+        "experience": "1",
+        "level": 1,
+        "hp": 30,
+        "subordinated": "Calypso",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 3,
+        "number": "003",
+        "tag": "Gnome",
+        "name": "Gnome",
+        "class": "E",
+        "experience": "1",
+        "level": 1,
+        "hp": 45,
+        "subordinated": "Calypso",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+     {
+        "id": 4,
+        "number": "004",
+        "tag": "mudman",
+        "name": "Mudman",
+        "class": "E",
+        "experience": "10",
+        "level": 1,
+        "hp": 30,
+        "subordinated": "Calypso",
+        "dropItems": [
+            "luxurius-sword", null
+        ],
+        "note": "",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "number": "005",
+        "tag": "nadhya",
+        "name": "Nadhya",
+        "class": "E",
+        "experience": "10",
+        "level": 1,
+        "hp": 30,
+        "subordinated": "Calypso",
+        "dropItems": [
+            "luxurius-sword", null
+        ],
+        "note": "Undead creature",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "number": "006",
+        "tag": "zombie",
+        "name": "Zombie",
+        "class": "E",
+        "experience": "10",
+        "level": 1,
+        "hp": 30,
+        "subordinated": "Calypso",
+        "dropItems": [
+            "luxurius-sword", null
+        ],
+        "note": "Undead creature",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "number": "007",
+        "tag": "thunder-skull-ghost",
+        "name": "Thunder Skull Ghost",
+        "class": "E",
+        "experience": "1",
+        "level": 1,
+        "hp": 40,
+        "subordinated": "Gladius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 8,
+        "number": "008",
+        "tag": "fire-skull-ghost",
+        "name": "Fire Skull Ghost",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 9,
+        "number": "009",
+        "tag": "imp",
+        "name": "imp",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical"
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 10,
+        "number": "010",
+        "tag": "bloody-demon",
+        "name": "Bloody Demon",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical"
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 11,
+        "number": "011",
+        "tag": "skull-demon",
+        "name": "Skull demon",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 12,
+        "number": "012",
+        "tag": "merman",
+        "name": "Merman",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 13,
+        "number": "013",
+        "tag": "eletric-eel",
+        "name": "Eletric Eel",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 14,
+        "number": "014",
+        "tag": "mandragora",
+        "name": "Mandragora",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 15,
+        "number": "015",
+        "tag": "carnivore-plant",
+        "name": "Carnivore Plant",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 16,
+        "number": "016",
+        "tag": "gargoyle-statuet",
+        "name": "Gargoyle Sttuet",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 17,
+        "number": "017",
+        "tag": "whip-skull",
+        "name": "Whip Skull",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 18,
+        "number": "018",
+        "tag": "flasher-spirit",
+        "name": "Flasher-spirit",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 19,
+        "number": "019",
+        "tag": "wizard-skull",
+        "name": "Wizard Skull",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 20,
+        "number": "020",
+        "tag": "wolf-skull",
+        "name": "wolf Skull",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 21,
+        "number": "021",
+        "tag": "sword-skull",
+        "name": "Sword Skull",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 22,
+        "number": "022",
+        "tag": "flesh-demon",
+        "name": "Flesh Demon",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 23,
+        "number": "023",
+        "tag": "axe-skull",
+        "name": "Axe Skull",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 24,
+        "number": "024",
+        "tag": "archer-skull",
+        "name": "Archer Skull",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 25,
+        "number": "025",
+        "tag": "cerberus-vounglet",
+        "name": "Cerberus Vounglet",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 26,
+        "number": "026",
+        "tag": "elite-archer-skull",
+        "name": "Elite Archer Skull",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 27,
+        "number": "027",
+        "tag": "crown-man",
+        "name": "Crown man",
+        "class": "E",
+        "experience": "1",
+        "level": 2,
+        "hp": 45,
+        "subordinated": "Luxurius",
+        "dropItems": [
+            null, null
+        ],
+        "note": "?",
+        "bio": "",
+        "properties": {
+            "DEF": 0,
+            "DMA": 0,
+            "STR": 0,
+            "INT": 0,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+            ],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 70,
+        "number": "070",
+        "tag": "minotaur",
+        "name": "Minotaur",
+        "class": "B",
+        "experience": "1000",
+        "level": 70,
+        "hp": 700,
+        "subordinated": "Calypso",
+        "dropItems": [
+            "viking-axe", "cotton-tunic"
+        ],
+        "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+
+    },
+    {
+        "id": 93,
+        "number": "093",
+        "tag": "morph",
+        "name": "Morph",
+        "class": "S",
+        "experience": "10",
+        "level": 1,
+        "hp": 30,
+        "subordinated": "Calypso",
+        "dropItems": [
+            "luxurius-sword", null
+        ],
+        "note": "Undead creature",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+    },
+    {
+        "id": 94,
+        "number": "094",
+        "tag": "knight-mantis",
+        "name": "Knight Mantis",
+        "class": "S",
+        "experience": "10",
+        "level": 1,
+        "hp": 30,
+        "subordinated": "Calypso",
+        "dropItems": [
+            "luxurius-sword", null
+        ],
+        "note": "Undead creature",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+    },
+    {
+        "id": 145,
+        "number": "145",
+        "tag": "mythzor-soul",
+        "name": "Mythzor Soul",
+        "class": "B",
+        "experience": "1000",
+        "level": 70,
+        "hp": 700,
+        "subordinated": "Calypso",
+        "dropItems": [],
+        "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+
+    },
+    {
+        "id": 146,
+        "number": "146",
+        "tag": "?",
+        "name": "?",
+        "class": "B",
+        "experience": "1000",
+        "level": 70,
+        "hp": 700,
+        "subordinated": "Calypso",
+        "dropItems": [],
+        "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+
+    },
+    {
+        "id": 147,
+        "number": "147",
+        "tag": "cathacresys",
+        "name": "Cathacresys",
+        "class": "B",
+        "experience": "1000",
+        "level": 70,
+        "hp": 700,
+        "subordinated": "Calypso",
+        "dropItems": [],
+        "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+
+    },
+    {
+        "id": 148,
+        "number": "148",
+        "tag": "luxurius-human",
+        "name": "Luxurius (Human)",
+        "class": "B",
+        "experience": "1000",
+        "level": 70,
+        "hp": 700,
+        "subordinated": "Calypso",
+        "dropItems": [],
+        "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+
+    },
+    {
+        "id": 149,
+        "number": "149",
+        "tag": "luxurius-demon",
+        "name": "Luxurius (Demon)",
+        "class": "B",
+        "experience": "1000",
+        "level": 70,
+        "hp": 700,
+        "subordinated": "Calypso",
+        "dropItems": [],
+        "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+
+    },
+    {
+        "id": 150,
+        "number": "150",
+        "tag": "lucifer",
+        "name": "Lucifer",
+        "class": "S",
+        "experience": "1000",
+        "level": 99,
+        "hp": "????",
+        "subordinated": "Calypso",
+        "dropItems": [
+            "luxurius-sword", null
+        ],
+        "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
+        "bio": "",
+        "properties": {
+            "DEF": 1,
+            "DMA": 1,
+            "STR": 0,
+            "INT": 1,
+            "LCK": 0
+        },
+        "attributes": {
+            "attack": [
+                "physical", "thunder-lightning", "dark"
+            ],
+            "weakness": [
+                "water-ice", "wind"
+            ],
+            "tolerance": [
+                "physical", "fire", "earth-sand", "nature"
+            ],
+            "immune": [
+                "thunder-lightning"
+            ]
+        }
+
+    }
+]

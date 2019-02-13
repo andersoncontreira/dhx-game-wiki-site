@@ -1,0 +1,12 @@
+#enemy-list {
+	border: 0px solid #ccc;
+	color: white;
+}
+
+#enemy-list th,  #enemy-list td{
+	text-align: left;
+	border: 1px solid #ccc;
+}
+#enemy-list td {
+	text-align: left;
+}

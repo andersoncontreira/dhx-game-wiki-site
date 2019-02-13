@@ -1,6 +1,6 @@
 var data = [
-	{
-	"id": 1,
+    {
+        "id": 1,
         "number": "001",
         "tag": "skull-angel",
         "name": "Skull Angel",
@@ -8,8 +8,8 @@ var data = [
         "experience": "1",
         "level": 1,
         "hp": 30,
-		"subordinated": "Calypso",
-        "drop-items": [
+        "subordinated": "Calypso",
+        "dropItems": [
             null, null
         ],
         "note": "?",
@@ -22,22 +22,14 @@ var data = [
             "LCK": 0
         },
         "attributes": {
-            "attack": [
-                
-            ],
-            "weakness": [
-                
-            ],
-            "tolerance": [
-                
-            ],
-            "immune": [
-                
-            ]
-        }	
-	},
-	{
-	"id": 2,
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 2,
         "number": "002",
         "tag": "putrid-piranha",
         "name": "Putrid piranha",
@@ -45,8 +37,8 @@ var data = [
         "experience": "1",
         "level": 1,
         "hp": 30,
-		"subordinated": "Calypso",
-        "drop-items": [
+        "subordinated": "Calypso",
+        "dropItems": [
             null, null
         ],
         "note": "?",
@@ -59,22 +51,14 @@ var data = [
             "LCK": 0
         },
         "attributes": {
-            "attack": [
-                
-            ],
-            "weakness": [
-                
-            ],
-            "tolerance": [
-                
-            ],
-            "immune": [
-                
-            ]
-        }	
-	},
-	{
-	"id": 3,
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
+        "id": 3,
         "number": "003",
         "tag": "Gnome",
         "name": "Gnome",
@@ -82,8 +66,8 @@ var data = [
         "experience": "1",
         "level": 1,
         "hp": 45,
-		"subordinated": "Calypso",
-        "drop-items": [
+        "subordinated": "Calypso",
+        "dropItems": [
             null, null
         ],
         "note": "?",
@@ -96,21 +80,13 @@ var data = [
             "LCK": 0
         },
         "attributes": {
-            "attack": [
-                
-            ],
-            "weakness": [
-                
-            ],
-            "tolerance": [
-                
-            ],
-            "immune": [
-                
-            ]
-        }	
-	},
-	{
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
         "id": 6,
         "number": "006",
         "tag": "zombie",
@@ -119,8 +95,8 @@ var data = [
         "experience": "10",
         "level": 1,
         "hp": 30,
-		"subordinated": "Calypso",
-        "drop-items": [
+        "subordinated": "Calypso",
+        "dropItems": [
             "luxurius-sword", null
         ],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
@@ -148,7 +124,7 @@ var data = [
         }
     },
     {
-	"id": 7,
+        "id": 7,
         "number": "007",
         "tag": "thunder-skull-ghost",
         "name": "Thunder Skull Ghost",
@@ -156,8 +132,8 @@ var data = [
         "experience": "1",
         "level": 1,
         "hp": 40,
-		"subordinated": "Gladius",
-        "drop-items": [
+        "subordinated": "Gladius",
+        "dropItems": [
             null, null
         ],
         "note": "?",
@@ -170,21 +146,13 @@ var data = [
             "LCK": 0
         },
         "attributes": {
-            "attack": [
-                
-            ],
-            "weakness": [
-                
-            ],
-            "tolerance": [
-                
-            ],
-            "immune": [
-                
-            ]
-        }	
-	},
-	{
+            "attack": [],
+            "weakness": [],
+            "tolerance": [],
+            "immune": []
+        }
+    },
+    {
         "id": 70,
         "number": "070",
         "tag": "minotaur",
@@ -193,9 +161,9 @@ var data = [
         "experience": "1000",
         "level": 70,
         "hp": 700,
-		"subordinated": "Calypso",
-        "drop-items": [
-            "luxurius-sword", null
+        "subordinated": "Calypso",
+        "dropItems": [
+            "viking-axe", "cotton-tunic"
         ],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
         "bio": "",
@@ -222,7 +190,7 @@ var data = [
         }
 
     },
-	{
+    {
         "id": 145,
         "number": "145",
         "tag": "mythzor-soul",
@@ -231,9 +199,8 @@ var data = [
         "experience": "1000",
         "level": 70,
         "hp": 700,
-		"subordinated": "Calypso",
-        "drop-items": [
-        ],
+        "subordinated": "Calypso",
+        "dropItems": [],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
         "bio": "",
         "properties": {
@@ -259,7 +226,7 @@ var data = [
         }
 
     },
-	{
+    {
         "id": 146,
         "number": "146",
         "tag": "?",
@@ -268,9 +235,8 @@ var data = [
         "experience": "1000",
         "level": 70,
         "hp": 700,
-		"subordinated": "Calypso",
-        "drop-items": [
-        ],
+        "subordinated": "Calypso",
+        "dropItems": [],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
         "bio": "",
         "properties": {
@@ -296,7 +262,7 @@ var data = [
         }
 
     },
-	{
+    {
         "id": 147,
         "number": "147",
         "tag": "cathacresys",
@@ -305,9 +271,8 @@ var data = [
         "experience": "1000",
         "level": 70,
         "hp": 700,
-		"subordinated": "Calypso",
-        "drop-items": [
-        ],
+        "subordinated": "Calypso",
+        "dropItems": [],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
         "bio": "",
         "properties": {
@@ -333,7 +298,7 @@ var data = [
         }
 
     },
-	{
+    {
         "id": 148,
         "number": "148",
         "tag": "luxurius-human",
@@ -342,9 +307,8 @@ var data = [
         "experience": "1000",
         "level": 70,
         "hp": 700,
-		"subordinated": "Calypso",
-        "drop-items": [
-        ],
+        "subordinated": "Calypso",
+        "dropItems": [],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
         "bio": "",
         "properties": {
@@ -370,7 +334,7 @@ var data = [
         }
 
     },
-	{
+    {
         "id": 149,
         "number": "149",
         "tag": "luxurius-demon",
@@ -379,9 +343,8 @@ var data = [
         "experience": "1000",
         "level": 70,
         "hp": 700,
-		"subordinated": "Calypso",
-        "drop-items": [
-        ],
+        "subordinated": "Calypso",
+        "dropItems": [],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
         "bio": "",
         "properties": {
@@ -407,7 +370,7 @@ var data = [
         }
 
     },
-	{
+    {
         "id": 150,
         "number": "150",
         "tag": "lucifer",
@@ -416,8 +379,8 @@ var data = [
         "experience": "1000",
         "level": 99,
         "hp": "????",
-		"subordinated": "Calypso",
-        "drop-items": [
+        "subordinated": "Calypso",
+        "dropItems": [
             "luxurius-sword", null
         ],
         "note": "Lord of the mazes - Ruthless with his servants, those who err with him suffer the consequences.",
@@ -444,5 +407,5 @@ var data = [
             ]
         }
 
-    },
-]
+    }
+];

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>EnemyList</title>
+	<link href="css/default.css" rel="stylesheet">
+    <link href="css/enemy-list.css" rel="stylesheet">
+    <script type="text/javascript" src="vendor/vuejs/vue.min.js"></script>
+    <script type="text/javascript" src="js/default.js"></script>
+    <script type="text/javascript" src="js/enemy-list.js"></script>
+</head>
+<body>
+	<main id="main">
+		<table id="enemy-list">
+			<thead>
+				<tr>
+					<th colspan="11">details</th>
+					<th colspan="2">dropItems</th>
+					<th colspan="5">properties</th>
+					<th colspan="4">attributes</th>
+				</tr>	
+				<tr>
+					<th>id</th>
+					<th>number</th>
+					<th>tag</th>
+					<th>name</th>
+					<th>class</th>
+					<th>experience</th>
+					<th>level</th>
+					<th>hp</th>
+					<th>subordinated</th>
+					<th>note</th>
+					<th>bio</th>
+
+					<th>drop-item-a</th>
+					<th>drop-item-b</th>
+
+					<th>DEF</th>
+					<th>DMA</th>
+					<th>STR</th>
+					<th>INT</th>
+					<th>LCK</th>
+
+					<th>attack</th>
+					<th>weakness</th>
+					<th>tolerance</th>
+					<th>immune</th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr v-for="enemy in bestiary">	
+					<td>{{enemy.id}}</td>
+					<td>{{enemy.number}}</td>
+					<td>{{enemy.tag}}</td>
+					<td>{{enemy.name}}</td>
+					<td>{{enemy.class}}</td>
+					<td>{{enemy.experience}}</td>
+					<td>{{enemy.level}}</td>
+					<td>{{enemy.hp}}</td>
+					<td>{{enemy.subordinated}}</td>
+					<td>{{enemy.note}}</td>
+					<td>{{enemy.bio}}</td>
+
+					<td v-if="enemy.dropItems.hasOwnProperty('0')">{{enemy.dropItems[0]}}</td>
+					<td v-else>N/A</td>
+					<td v-if="enemy.dropItems.hasOwnProperty('1')">{{enemy.dropItems[1]}}</td>
+					<td v-else>N/A</td>
+
+
+					<td>{{enemy.properties.DEF}}</td>
+					<td>{{enemy.properties.DMA}}</td>
+					<td>{{enemy.properties.STR}}</td>
+					<td>{{enemy.properties.INT}}</td>
+					<td>{{enemy.properties.LCK}}</td>
+
+					<!--
+					<td>{{enemy.attributes.attack}}</td>
+					<td>{{enemy.attributes.weakness}}</td>
+					<td>{{enemy.attributes.tolerance}}</td>
+					<td>{{enemy.attributes.immune}}</th>
+					-->
+				</tr>	
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+	</main>
+</body>
+</html>

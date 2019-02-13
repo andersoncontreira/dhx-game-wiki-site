@@ -1,9 +1,10 @@
 [
   {
+    "id": 0,
     "tag": "cotton-tunic",
     "name":"Cotton Tunic",
     "description":"",
-    "category": "armor",
+    "category": "armors",
     "type":"common",
     "unique": false,
     "max_quantity": 999,

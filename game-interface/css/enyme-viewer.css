@@ -1,0 +1,11 @@
+#screen{
+	background:#F0F;
+	width:640px;
+	height:480px;
+	position:relative;
+}
+#sprite{
+	position:relative;
+	bottom:0;
+	left:128px;
+}

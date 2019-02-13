@@ -1,0 +1,73 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Enemy Viewer</title>
+			<link type="text/css" rel="stylesheet" href="css/enyme-viewer.css" />
+			
+		</head>
+		<body>
+			screem?
+			<div id="screen">
+				<div id="sprite"></div>
+			</div>
+			
+			<script type="text/javascript">
+				var texture = "./../data/enemies/sprite/011.png";
+				
+				var framerate = 12;
+				var frames = 3;
+				var width  = 96;
+				var height = 128;
+				
+				sprite = document.getElementById("sprite");
+				sprite.style.background = "url('"+texture+"')";
+				sprite.style.width = width+"px";
+				sprite.style.height = height+"px";
+				sprite.width = width;
+				sprite.height = height;
+				sprite.frames = frames;
+				sprite.style.backgroundPositionX = 0;
+				sprite.style.zoom = "200%";
+				//var ani = new Animation(sprite);
+				function Animation(){
+					this.sprite = sprite;
+					this.frame = 1;
+					this.run = function(){
+						//console.log('run')
+						//console.log(sprite)
+						
+						if(this.frame <= sprite.frames){
+							//(this.sprite.style.backgroundPositionX+this.sprite+width)+"px";
+							var pos = parseInt(this.sprite.style.backgroundPositionX.replace("px",""));
+								pos = (pos+this.sprite.width);
+								pos = pos-(pos*2);
+								pos = pos+"px";
+							this.sprite.style.backgroundPositionX = pos;
+							//console.log(pos);
+							//console.log((this.sprite.style.backgroundPositionX+this.sprite+width))
+							//console.log((this.sprite.style.backgroundPositionX+this.sprite+width)+"px");
+							//console.log(this.sprite.width*this.frame)
+							//console.log(this.sprite.style.backgroundPositionX)
+							this.frame++;
+						}else{
+							this.sprite.style.backgroundPositionX = 0;
+							this.frame = 1;
+						}
+						//console.log(this.sprite)
+						//console.log(this.sprite.style.backgroundPositionX)
+					}
+				}
+				
+					a = new Animation(sprite);
+					pla = window.setInterval(function(){
+					//pla = window.setTimeout(function(){
+						a.run();			
+						//console.log((1000/frames))						
+					},(1000/framerate));
+					//},500);
+					
+					
+				
+			</script>
+		</body>
+	</html>
